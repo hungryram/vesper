@@ -21,7 +21,3 @@ fields:
   label: No Index
   description: 'WARNING: Enabling this will prevent your page from being indexed by
     search engines.'
-- name: keywords
-  type: tag_list
-  default: []
-  label: Keywords
