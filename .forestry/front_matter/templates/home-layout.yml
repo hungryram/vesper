@@ -58,6 +58,16 @@ fields:
     max: 
     labelField: 
   label: Slideshow
+- name: video_background
+  type: field_group
+  config: {}
+  fields:
+  - name: video_link
+    type: text
+    config:
+      required: false
+    label: Video Link
+  label: Video Background
 - name: home_sections
   type: blocks
   label: Home Sections
