@@ -13,55 +13,57 @@
         </div>
         <div class="uk-width-expand@s">
             <div class="uk-card-body">
-                <h2 class="uk-card-title uk-margin-remove">{{ .Title }} {{ if .Params.details.license_number }}<span class="uk-text-small">| {{ .Params.details.license_number }}</span>{{ end }}</h2>
+                <h2 class="uk-card-title uk-margin-remove">{{ .Title }} {{ if .Params.details.license_number }}<span class="uk-text-small">| {{ .Params.details.license_number }}</span>{{ end }}{{ if .Params.contact.license_number }}<span class="uk-text-small">| {{ .Params.contact.license_number }}</span>{{ end }}</h2>
                 <div>
                     {{ if .Params.details.category }}<span>{{ .Params.details.category }}</span>{{ end }} 
                     {{ if .Params.details.title }}<span>{{ .Params.details.title }}</span>{{ end }} {{ if .Params.details.office }}{{ with .Site.GetPage .Params.details.office }} at <a href="{{ .Permalink }}" class="uk-text-bold">{{ .Params.title }}</a>{{end}}</span>{{ end }}
                 </div>
-                <table class="uk-table uk-table-small uk-table-divider uk-margin-medium-top">
-                    <tbody>
-                        {{ if .Params.contact.office_phone }}
-                        <tr>
-                            <td>Office Phone</td>
-                            <td class="uk-text-right"><a href="tel:{{ .Params.contact.office_phone }}">{{ .Params.contact.office_phone }}</a></td>
-                        </tr>
-                        {{ end }}
+                <div>
+                    <table class="uk-table uk-table-small uk-table-divider uk-margin-medium-top uk-table-responsive">
                         <tbody>
-                        {{ if .Params.contact.fax_number }}
-                        <tr>
-                            <td>Fax</td>
-                            <td class="uk-text-right"><a href="tel:{{ .Params.contact.fax_number }}">{{ .Params.contact.fax_number }}</a></td>
-                        </tr>
-                        {{ end }}
-                        {{ if .Params.contact.phone }}
-                        <tr>
-                            <td>Phone</td>
-                            <td class="uk-text-right"><a href="tel:{{ .Params.contact.phone }}">{{ .Params.contact.phone }}</a></td>
-                        </tr>
-                        {{ end }}
+                            {{ if .Params.contact.office_phone }}
+                            <tr>
+                                <td>Office Phone</td>
+                                <td class="uk-text-right@s"><a href="tel:{{ .Params.contact.office_phone }}">{{ .Params.contact.office_phone }}</a></td>
+                            </tr>
+                            {{ end }}
+                            <tbody>
+                            {{ if .Params.contact.fax_number }}
+                            <tr>
+                                <td>Fax</td>
+                                <td class="uk-text-right@s"><a href="tel:{{ .Params.contact.fax_number }}">{{ .Params.contact.fax_number }}</a></td>
+                            </tr>
+                            {{ end }}
+                            {{ if .Params.contact.phone }}
+                            <tr>
+                                <td>Phone</td>
+                                <td class="uk-text-right@s"><a href="tel:{{ .Params.contact.phone }}">{{ .Params.contact.phone }}</a></td>
+                            </tr>
+                            {{ end }}
+        
+                            {{ if .Params.contact.email }}
+                            <tr>
+                                <td>Email</td>
+                                <td class="uk-text-right@s"><a href="tel:{{ .Params.contact.email }}">{{ .Params.contact.email }}</a></td>
+                            </tr>
+                            {{ end }}
+                            {{ if .Params.contact.website }}
+                            <tr>
+                                <td>Website</td>
+                                <td class="uk-text-right@s"><a href="{{ .Params.contact.website }}" target="_blank">{{ .Params.contact.website }}</a></td>
+                            </tr>
+                            {{ end }}
+                            <tr>
+                                <td>
     
-                        {{ if .Params.contact.email }}
-                        <tr>
-                            <td>Email</td>
-                            <td class="uk-text-right"><a href="tel:{{ .Params.contact.email }}">{{ .Params.contact.email }}</a></td>
-                        </tr>
-                        {{ end }}
-                        {{ if .Params.contact.website }}
-                        <tr>
-                            <td>Website</td>
-                            <td class="uk-text-right"><a href="{{ .Params.contact.website }}" target="_blank">{{ .Params.contact.website }}</a></td>
-                        </tr>
-                        {{ end }}
-                        <tr>
-                            <td>
-
-                            </td>
-                            <td class="uk-text-right">
-                                
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                                </td>
+                                <td class="uk-text-right">
+                                    
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
@@ -82,8 +84,8 @@
             <div class="uk-width-1-2@s uk-text-right@s">
                 <div class="uk-margin-small-bottom uk-margin-small-top">
                     <ul class="uk-list">
-                            <li class="uk-display-inline-block"><a href="tel:{{ if .Params.contact.phone }}{{ .Params.contact.phone }}{{ else }}{{ .Params.contact.cell }}{{ end }}" class="uk-button uk-button-primary uk-text-right">Call</a></li>
-                            <li class="uk-display-inline-block"><a href="mailto:{{ if .Params.contact.email }}{{ .Params.contact.email }}{{ end }}" class="uk-button uk-button-primary uk-text-right">Email</a></li>
+                            <li class="uk-display-inline-block"><a href="tel:{{ if .Params.contact.phone }}{{ .Params.contact.phone }}{{ else }}{{ .Params.contact.cell }}{{ end }}" class="uk-button uk-button-primary uk-text-right"{{ if $buttonColor.button_background_color }} style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}>Call</a></li>
+                            <li class="uk-display-inline-block"><a href="mailto:{{ if .Params.contact.email }}{{ .Params.contact.email }}{{ end }}" class="uk-button uk-button-primary uk-text-right"{{ if $buttonColor.button_background_color }} style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}>Email</a></li>
                     </ul>
                 </div>
             </div>
