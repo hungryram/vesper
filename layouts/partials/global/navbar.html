@@ -16,7 +16,7 @@
 </style>
 <div class="uk-visible@s" uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-dark; cls-inactive: uk-navbar-transparent; top: 200" {{ if $navColor.transparent_background }}{{ else }}style="background: {{ $navColor.header_background_color }};"{{ end }}>
     <div class="top-navbar" style="background:{{ if $navColor.top_header_color }}{{ $navColor.top_header_color }}{{ else }}transparent{{ end }}">
-        <nav class="uk-container uk-container-{{ if .IsHome }}medium{{ else }}large{{ end }}" uk-navbar>
+        <nav class="uk-container uk-container-large" uk-navbar>
             <div class="uk-navbar-right">
                 <ul class="uk-navbar-nav top-bar">
                     {{ if $navContact.cell }}<li><a style="{{ if $navColor.enable_white_text_top }}color: #ddd{{ else }}color: #000;{{ end }}" href="tel:{{ $navContact.cell }}"><span class="uk-text-bold uk-margin-small-right">Direct:</span> {{ $navContact.cell }}</a></li>{{ end }}
@@ -27,7 +27,7 @@
         </nav>
     </div>
     <nav class="main-nav uk-navbar-container uk-navbar-transparent"{{ if not .IsHome }} style="border-bottom: 1px solid rgb(213 213 213 / 20%);"{{ end }}>
-        <div class="uk-container uk-container-{{ if .IsHome }}medium{{ else }}large{{ end }}" style="padding-top:10px;padding-bottom:10px;">
+        <div class="uk-container uk-container-large" style="padding-top:10px;padding-bottom:10px;">
             <div uk-navbar>
                 <div class="uk-navbar-left">
                     <a href="{{ .Site.BaseURL }}">

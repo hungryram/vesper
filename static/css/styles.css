@@ -1,9 +1,31 @@
 /* TYPOGRAPHY */
 
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body .uk-h1,
+body .uk-h2, 
+body .uk-h3, 
+body .uk-h4, 
+body .uk-h5, 
+body .uk-h6, 
+body .uk-heading-2xlarge, 
+body .uk-heading-large, 
+body .uk-heading-medium, 
+body .uk-heading-small, 
+body .uk-heading-xlarge {
+    font-family: "Raleway", sans-serif!important;
+    line-height: 1.5;
+}
+
 body {
-    font-family: Lato,sans-serif;
-    line-height: 28px;
+    font-family: 'Lato', sans-serif;
+    color: #777;
     font-size: 16px;
+    line-height: 30px;
 }
 
 body a:hover {
@@ -22,19 +44,6 @@ body em {
     color: inherit;
 }
 
-body h1,
-body h2,
-body h3,
-body h4,
-body h5,
-body h6 {
-    font-family: Raleway,sans-serif!important;
-    font-weight: 600;
-}
-
-#home-section h2 {
-    font-size: 1.5rem;
-}
 
 #home-section {
     overflow-x: hidden;
@@ -144,6 +153,11 @@ div.uk-navbar-dropdown {
 
 /* WHITE/BLACK LOGO */
 
+.uk-visible\@s.uk-sticky.undefined.uk-sticky-below.uk-sticky-fixed .white-logo,
+div.uk-sticky.uk-sticky-below.uk-sticky-fixed.undefined .white-logo {
+    display: none;
+}
+
 .uk-navbar-sticky .dark-logo {
     display: block;
 }
@@ -151,11 +165,6 @@ div.uk-navbar-dropdown {
 .dark-logo {
     display: none;
 }
-
-div.full-nav-wrapper:hover .dark-logo {
-    display: block;
-}
-
 
 
 /* FORM */
