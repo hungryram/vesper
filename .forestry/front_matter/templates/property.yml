@@ -133,6 +133,7 @@ fields:
     required: false
     options:
     - Acreage and Land
+    - Apartment
     - Commercial
     - Condo
     - Townhome

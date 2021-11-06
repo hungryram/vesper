@@ -6,7 +6,7 @@ weight = 50
 cell = "965-521-3422"
 email = "brittany@hungryram.com"
 fax = ""
-phone = "896-845-2165"
+phone = ""
 [details]
 agent_photo = "https://res.cloudinary.com/hungryram19/image/upload/v1605401929/templates/realestate2/freestocks-9UVmlIb0wJU-unsplash_safxe6.jpg"
 languages = ["English"]

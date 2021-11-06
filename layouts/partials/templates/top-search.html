@@ -81,11 +81,11 @@
         {{ end }}
         <div class="uk-inline">
             <button class="uk-button uk-button-default" type="button">Price</button>
-            <div uk-drop="mode: click">
-                <div class="uk-card uk-card-body uk-card-default">
-                    <div uk-filter-control="sort: data-price; order: desc"><a href="#">Low to high</a></div>
-                    <div uk-filter-control="sort: data-price"><a href="#">High to low</a></div>
-                </div>
+            <div uk-dropdown="mode: click">
+                <ul class="uk-list">
+                    <li uk-filter-control="sort: data-price; order: desc">$$</li>
+                    <li uk-filter-control="sort: data-price">$</li>
+                </ul>
             </div>    
         </div>
     </div>

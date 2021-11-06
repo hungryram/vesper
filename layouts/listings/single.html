@@ -125,11 +125,13 @@
                     {{ end }}
                 </div>
      
+                {{ if .Content }}
                 <div class="uk-card uk-card-default uk-margin-small-top uk-card-body">
                     <h2 class="uk-h4 uk-text-bold">Description</h2>
                     <hr>
                     {{ .Content }}
                 </div>
+                {{ end }}
 
                 <div class="uk-card uk-card-default uk-margin-small-top uk-card-body">
                     <h2 class="uk-h4 uk-text-bold">Details</h2>

@@ -2,7 +2,7 @@
 {{ $size := .Site.Data.developer }}
 
 <div class="uk-section">
-    <div class="uk-container">
+    <div class="uk-container uk-container-large">
         <div class="uk-grid-small" uk-grid>
             <div class="uk-width-{{ $size.column_size }}{{ $size := .Site.Data.developer }}
             ">
@@ -17,20 +17,20 @@
                 <hr>
                 {{ if .Params.categories }}
                 <ul class="uk-list">
-                    <h5 class="uk-text-bold">Categories</h5>
+                    <h3 class="uk-text-bold">Categories</h3>
                     {{ range $name, $taxonomy := $.Site.Taxonomies.categories }}
                     <li class="uk-display-inline-block">
-                        <span class="uk-badge uk-margin-small-right"><a href="/categories{{ $name | urlize | relURL }}" class="uk-text-link">{{ $name | humanize }}</a></span>
+                        <span class="uk-margin-small-right"><a href="/categories{{ $name | urlize | relURL }}" class="uk-text-link">{{ $name | humanize }}</a></span>
                     </li>
                     {{ end }}
                 </ul>
                 {{ end }}
                 {{ if .Params.tags }}
                 <ul class="uk-list">
-                    <h5 class="uk-text-bold">Tags</h5>
+                    <h3 class="uk-text-bold">Tags</h3>
                     {{ range $name, $taxonomy := $.Site.Taxonomies.tags }}
                     <li class="uk-display-inline-block">
-                        <span class="uk-badge"><a href="/tags{{ $name | urlize | relURL }}" class="uk-margin-small-left uk-text-link">{{ $name | humanize }}</a></span>
+                        <span><a href="/tags{{ $name | urlize | relURL }}" class="uk-margin-small-left uk-text-link">{{ $name | humanize }}</a></span>
                     </li>
                     {{ end }}
                 </ul>

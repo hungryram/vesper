@@ -30,6 +30,7 @@ body {
 
 body a:hover {
     text-decoration: none;
+    color: inherit;
 }
 
 body a {
@@ -48,6 +49,11 @@ body em {
 #home-section {
     overflow-x: hidden;
 }
+
+div.uk-overlay-baseof {
+    background: rgb(17 17 17 / 60%);
+}
+
 
 /* OVERWRITE */
 
@@ -154,7 +160,9 @@ div.uk-navbar-dropdown {
 /* WHITE/BLACK LOGO */
 
 .uk-visible\@s.uk-sticky.undefined.uk-sticky-below.uk-sticky-fixed .white-logo,
-div.uk-sticky.uk-sticky-below.uk-sticky-fixed.undefined .white-logo {
+div.uk-sticky.uk-sticky-below.uk-sticky-fixed.undefined .white-logo,
+.uk-visible\@m.uk-sticky.uk-sticky-below.uk-sticky-fixed .white-logo,
+.uk-sticky.uk-sticky-below.uk-sticky-fixed .white-logo {
     display: none;
 }
 
@@ -253,10 +261,11 @@ span.featured.uk-badge {
 
 span.status.uk-badge,
 span.featured.uk-badge {
-    padding: 4px 10px;
+    padding: 11px 10px;
     border-radius: 5px;
-    color: #fff;
+    color: #fff!important;
     margin: 2px;
+    font-size: 15px;
 }
 
 .property-card-overlay {

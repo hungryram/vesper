@@ -5,10 +5,10 @@
 {{ $accent := $.Site.Data.appearance.colors.accent }}
 
 
-<footer class="footer" style="{{ if $footer.background_image }}background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url({{ $footer.background_image }}) no-repeat center;{{ else }}background:{{ $footer.footer_background_color }}{{ end }}">
+<footer class="footer" style="{{ if $footer.background_image }}background:url({{ $footer.background_image }}) no-repeat center;background-size:cover;background-blend-mode:overlay;background-color:rgba(0,0,0,0.9){{ else }}background:{{ $footer.footer_background_color }}{{ end }}">
     <div class="uk-section">
         <div class="uk-container uk-container-large">
-            <div class="uk-grid-small uk-child-width-1-4@m uk-child-width-1-2@s" uk-grid>
+            <div class="uk-grid-large uk-child-width-1-4@m uk-child-width-1-2@s" uk-grid>
                 <div>
                     {{ if $footer.logo }}
                     <img src="{{ $footer.logo }}" alt="{{ $companyName }}" width="150">
