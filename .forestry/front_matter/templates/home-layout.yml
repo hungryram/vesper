@@ -67,6 +67,30 @@ fields:
     config:
       required: false
     label: Video Link
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Body
+  - name: button_label
+    type: text
+    config:
+      required: false
+    label: Button Label
+  - name: button_link
+    type: text
+    config:
+      required: false
+    label: Button Link
   label: Video Background
 - name: home_sections
   type: blocks
