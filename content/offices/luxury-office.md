@@ -6,6 +6,7 @@ address = "419 Street Address"
 city = "City"
 email = "ram@hungryram.com"
 fax_number = "514-596-6515"
+license_number = "Cal Bre #06542"
 office_phone = "644-655-5515"
 state = "California"
 zip_code = 92886
@@ -13,6 +14,7 @@ zip_code = 92886
 photo = "https://res.cloudinary.com/hungryram19/image/upload/v1605402667/templates/realestate2/campaign-creators-qCi_MzVODoU-unsplash_ndix6u.jpg"
 [search_engine_optimization]
 meta_description = ""
+no_index = false
 title_tag = ""
 
 +++
