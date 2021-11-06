@@ -6,6 +6,9 @@ fields:
   type: field_group
   config: {}
   fields:
+  - name: enable_black_text
+    type: boolean
+    label: Enable Black Text
   - name: slide_animation
     type: select
     default: []
