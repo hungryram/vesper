@@ -67,6 +67,9 @@ fields:
     config:
       required: false
     label: Video Link
+  - name: enable_black_text
+    type: boolean
+    label: Enable Black Text
   - name: heading
     type: text
     config:
