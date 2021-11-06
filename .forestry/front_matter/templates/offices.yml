@@ -113,6 +113,11 @@ fields:
       max: 99999
       step: 
     label: Zip Code
+  - name: website
+    type: text
+    config:
+      required: false
+    label: Website
   label: Contact
 - name: photos
   type: field_group
