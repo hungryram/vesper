@@ -7,11 +7,6 @@ fields:
   config:
     required: true
   label: Office Name
-- name: url
-  type: include
-  config: {}
-  template: url
-  label: URL
 - name: contact
   type: field_group
   config: {}
@@ -139,5 +134,10 @@ fields:
     template: seo
     label: SEO
   label: Search Engine Optimization
+- name: url
+  type: include
+  config: {}
+  template: url
+  label: URL
 pages:
 - content/offices/luxury-office.md
