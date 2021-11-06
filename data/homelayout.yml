@@ -68,3 +68,7 @@ slideshow_settings:
   enable_ken_burns_effect: false
 video_background:
   video_link: https://res.cloudinary.com/hungryram19/video/upload/v1636132823/rajon-arrae/rajon-arrae-estates/pexels-arsel-8403602.mp4
+  heading: Highly Customizable Real Estate Theme
+  body: Optionally integrate with IDX or use built in tools
+  button_label: Search Homes
+  button_link: "/listings"
