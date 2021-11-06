@@ -67,6 +67,16 @@ fields:
       min: 
       max: 
       step: 
+  - name: mobile_logo_width
+    type: number
+    label: Mobile Logo Width
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
   label: Branding
 - name: colors
   type: field_group
