@@ -66,3 +66,5 @@ slideshow_settings:
   slide_animation: fade
   enable_autoplay: true
   enable_ken_burns_effect: false
+video_background:
+  video_link: https://res.cloudinary.com/hungryram19/video/upload/v1636132823/rajon-arrae/rajon-arrae-estates/pexels-arsel-8403602.mp4
