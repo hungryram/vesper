@@ -124,6 +124,51 @@ fields:
       maxSize: 2
     label: Photo
   label: Photo
+- name: social_media
+  type: field_group
+  config: {}
+  fields:
+  - name: facebook
+    type: text
+    config:
+      required: false
+    label: Facebook
+  - name: instagram
+    type: text
+    config:
+      required: false
+    label: Instagram
+  - name: linkedin
+    type: text
+    config:
+      required: false
+    label: Linkedin
+  - name: pinterest
+    type: text
+    config:
+      required: false
+    label: Pinterest
+  - name: twitter
+    type: text
+    config:
+      required: false
+    label: Twitter
+  - name: youtube
+    type: text
+    config:
+      required: false
+    label: Youtube
+  - name: tiktok
+    type: text
+    config:
+      required: false
+    label: TikTok
+  - name: yelp
+    type: text
+    config:
+      required: false
+    label: Yelp
+  label: Social Media
 - name: search_engine_optimization
   type: field_group
   config: {}
