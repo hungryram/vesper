@@ -10,6 +10,7 @@
             {{ else }}
             <img src="/assets/user.jpg" alt="avatar" uk-cover>
             {{ end }}
+            <canvas height="350"></canvas>
         </div>
         <div class="uk-width-expand@s">
             <div class="uk-card-body">
@@ -38,6 +39,12 @@
                             <tr>
                                 <td>Phone</td>
                                 <td class="uk-text-right@s"><a href="tel:{{ .Params.contact.phone }}">{{ .Params.contact.phone }}</a></td>
+                            </tr>
+                            {{ end }}
+                            {{ if .Params.contact.cell }}
+                            <tr>
+                                <td>Cell</td>
+                                <td class="uk-text-right@s"><a href="tel:{{ .Params.contact.cell }}">{{ .Params.contact.cell }}</a></td>
                             </tr>
                             {{ end }}
         
