@@ -9,11 +9,10 @@ collections_config:
       - data
       - content
 collection_groups:
-  - heading: Blogging
+  - heading: Blog
     collections:
-      - posts
-      - drafts
-  - heading: Other
+      - blog
+  - heading: Pages
     collections:
       - pages
       - listings
