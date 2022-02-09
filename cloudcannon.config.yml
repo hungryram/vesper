@@ -45,6 +45,9 @@ _inputs:
     comment: URL is generated automatically on page creation. Changing the URL can cause page link to break.
   featured:
     type: checkbox
+    default: false
+  cities:
+    label: city
   status:
     type: select
     options:
