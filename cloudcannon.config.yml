@@ -21,6 +21,9 @@ collection_groups:
       - partners
       - testimonials
       - thank-you
+      - contact
+      - home-valuation
+      - legal
 paths:
   # The default location for newly uploaded files, relative to source
   uploads: assets
