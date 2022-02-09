@@ -9,9 +9,9 @@ collections_config:
       - visual
     disable_add: true
 collection_groups:
-  - heading: Blog
+  - heading: Profile and Settings
     collections:
-      - blog
+      - data
   - heading: Pages
     collections:
       - pages
@@ -25,9 +25,12 @@ collection_groups:
       - home-valuation
       - legal
       - appearance
-  - heading: Data
+  - heading: Blog
     collections:
-      - data
+      - blog
 paths:
   # The default location for newly uploaded files, relative to source
   uploads: assets
+_inputs:
+  photo_or_logo:
+    type: image
