@@ -43,6 +43,21 @@ _inputs:
   url:
     type: text
     comment: URL is generated automatically on page creation. Changing the URL can cause page link to break.
+  featured:
+    type: checkbox
+  status:
+    type: select
+    options:
+      values:
+        - Sold
+        - Active
+        - Pending
+        - Available
+        - Negotiating
+        - In Contract
+        - Coming Soon
+        - Auction
+        - Rental
   properties:
     type: select
     options:
