@@ -43,6 +43,27 @@ _inputs:
   url:
     type: text
     comment: URL is generated automatically on page creation. Changing the URL can cause page link to break.
+  properties:
+    type: select
+    options:
+      values:
+        - Acreage and Land
+        - Apartment
+        - Commercial
+        - Condo
+        - Townhome
+        - Co-op
+        - Duplex
+        - Farmland
+        - Farmranch
+        - Cabin
+        - Mobile Home
+        - Multi-Family
+        - New Construction
+        - Rental
+        - Single Family
+        - Time Share
+        - Vacation Home
   states:
     type: select
     options:
