@@ -1,8 +1,6 @@
 +++
-body = ""
 title = "Contact"
-[menu.main]
-weight = 5
+body = ""
 [search_engine_optimization]
 meta_description = ""
 no_index = false
