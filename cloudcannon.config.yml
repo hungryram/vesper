@@ -24,6 +24,9 @@ collection_groups:
       - contact
       - home-valuation
       - legal
+  - heading: Data
+    collections:
+      - appearance
 paths:
   # The default location for newly uploaded files, relative to source
   uploads: assets
