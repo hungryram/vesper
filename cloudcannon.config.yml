@@ -3,3 +3,21 @@ collections_config:
     _enabled_editors:
       - data
       - visual
+  blog:
+    _enabled_editors:
+      - visual
+      - data
+      - content
+collection_groups:
+  -heading: Pages
+   collections:
+    - pages
+    - listings
+    - our-team
+    - offices
+    - partners
+    - testimonials
+    - thank-you
+  -heading: Blog
+   collections:
+    - blog
