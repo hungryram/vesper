@@ -12,14 +12,10 @@
                 <div class="uk-card">
                     <ul class="uk-flex uk-list uk-flex-left uk-flex-bottom">
                         <li>
-                            {{ if .Params.status }}
-
-                            {{ $buttonColor := $.Site.Data.appearance.colors }}
 
                             <span class="status uk-badge" {{ if in .Params.status "Sold" }}style="background: #d10000"
                                 {{ else }}style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }}"
                                 {{ end }}>{{ .Params.status }}</span>
-                            {{ end }}
 
 
                             {{ if .Params.featured }}<span class="featured uk-badge">{{ .Params.featured }}</span>{{ end
