@@ -1,7 +1,8 @@
 {{ define "main" }}
-{{ $buttonColor := $.Site.Data.appearance.colors }}
 {{ $size := .Site.Data.developer }}
 {{ $accent := $.Site.Data.appearance.colors.accent }}
+{{ $buttonColor := $.Site.Data.appearance.colors }}
+
 {{ partial "templates/listing-schema" . }}
 <div class="uk-section">
     <div class="uk-container uk-container-large">
