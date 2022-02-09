@@ -8,6 +8,10 @@ collections_config:
     _enabled_editors:
       - visual
     disable_add: true
+  contact:
+    _enabled_editors:
+      - visual
+    disable_add: true
 collection_groups:
   - heading: Profile and Settings
     collections:
@@ -34,3 +38,5 @@ paths:
 _inputs:
   photo_or_logo:
     type: image
+  url:
+    type: text
