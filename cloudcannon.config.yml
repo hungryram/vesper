@@ -9,15 +9,16 @@ collections_config:
       - data
       - content
 collection_groups:
-  -heading: Pages
-   collections:
-    - pages
-    - listings
-    - our-team
-    - offices
-    - partners
-    - testimonials
-    - thank-you
-  -heading: Blog
-   collections:
-    - blog
+  - heading: Blogging
+    collections:
+      - posts
+      - drafts
+  - heading: Other
+    collections:
+      - pages
+      - listings
+      - our-team
+      - offices
+      - partners
+      - testimonials
+      - thank-you
