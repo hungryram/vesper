@@ -1,17 +1,9 @@
 +++
-body = "View Client reviews here"
-meta_description = "Our clients put their trust in our team"
 title = "Testimonial"
-title_tag = "Testimonial"
-
-[menu.main]
-name = "Testimonials"
-parent = "Resources"
-weight = 1
-
+body = "View Client reviews here"
 [search_engine_optimization]
-meta_description = ""
-title_tag = ""
+meta_description = "Our clients put their trust in our team"
+title_tag = "Testimonial"
 
 [[testimonials]]
 date = "Sep 20, 2020"
