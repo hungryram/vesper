@@ -29,15 +29,7 @@
                                 <h3 class="uk-margin-remove">{{ .Params.price }}</h3>
                             </li>
                             <li class="uk-display-block">
-                                {{ if .Params.listing_agent.listing_agent }}
-                                {{ with .Site.GetPage .Params.listing_agent.listing_agent }}
-                                {{ if .Params.contact.cell }}
-                                <a href="tel:{{ .Params.contact.cell }}" class="uk-button uk-button-primary uk-margin-medium-left uk-text-bold uk-flex uk-flex-middle listing-detail-cta" {{ if $buttonColor.button_background_color }}style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}><span uk-icon="icon: receiver" class="uk-margin-small-right"></span> More Info</a>
-                                {{ else }}
-                                <a href="tel:{{ $.Site.Data.profile.contact_information.cell }}" class="uk-button uk-button-primary uk-margin-medium-left uk-text-bold uk-flex uk-flex-middle listing-detail-cta" {{ if $buttonColor.button_background_color }}style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}><span uk-icon="icon: receiver" class="uk-margin-small-right"></span> More Info</a>
-                                {{ end }}
-                                {{ end }}
-                            {{ end }}                            
+                        
                             </li>
                         </ul>
                     </div>
