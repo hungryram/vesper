@@ -38,5 +38,8 @@ paths:
 _inputs:
   photo_or_logo:
     type: image
+  agent_photo:
+    type: image
   url:
     type: text
+    comment: URL is generated automatically on page creation. Changing the URL can cause page link to break.
