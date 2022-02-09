@@ -3,6 +3,10 @@ collections_config:
     _enabled_editors:
       - data
       - visual
+  thank-you:
+    _enabled_editors:
+      - data
+      - visual
 collection_groups:
   - heading: Blog
     collections:
