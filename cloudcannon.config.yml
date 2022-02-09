@@ -35,7 +35,6 @@ collection_groups:
 paths:
   # The default location for newly uploaded files, relative to source
   uploads: assets
-date: 2021-01-09T00:00:00Z
 _inputs:
   photo_or_logo:
     type: image
@@ -46,6 +45,8 @@ _inputs:
     comment: URL is generated automatically on page creation. Changing the URL can cause page link to break.
   date:
     type: date
+  gallery:
+    type: image
   featured:
     type: select
     options:
