@@ -16,7 +16,7 @@
                             {{ if in .Params.status "Sold" }}
                             <span class="uk-badge status" style="background: #d10000">{{ .Params.status }}</span>
                             {{ else }}
-                            <span class="uk-badge status" {{ if $buttonColor.button_background_color }}style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}>{{ .Params.status }}</span>
+                            <span class="uk-badge status" style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};">{{ .Params.status }}</span>
                             {{ end }}
 
 
