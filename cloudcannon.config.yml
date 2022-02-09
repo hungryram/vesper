@@ -1,0 +1,5 @@
+collections_config:
+  testimonials:
+    _enabled_editors:
+      - data
+      - visual
