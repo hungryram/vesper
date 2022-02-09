@@ -4,7 +4,6 @@ collections_config:
       - data
       - visual
   blog:
-    - path: blog
     _enabled_editors:
       - visual
       - data
