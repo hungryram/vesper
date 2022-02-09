@@ -3,10 +3,11 @@ collections_config:
     _enabled_editors:
       - data
       - visual
+    disable_add: true
   thank-you:
     _enabled_editors:
-      - data
       - visual
+    disable_add: true
 collection_groups:
   - heading: Blog
     collections:
@@ -20,3 +21,6 @@ collection_groups:
       - partners
       - testimonials
       - thank-you
+paths:
+  # The default location for newly uploaded files, relative to source
+  uploads: assets
