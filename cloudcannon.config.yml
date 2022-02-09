@@ -43,13 +43,15 @@ _inputs:
   url:
     type: text
     comment: URL is generated automatically on page creation. Changing the URL can cause page link to break.
+  date:
+    type: date
   featured:
     type: select
     options:
       values:
         - Featured
   cities:
-    label: city
+    label: City
   status:
     type: select
     options:
@@ -65,6 +67,7 @@ _inputs:
         - Rental
   properties:
     type: select
+    label: Property Type
     options:
       values:
         - Acreage and Land
