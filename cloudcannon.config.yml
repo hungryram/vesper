@@ -8,25 +8,7 @@ collections_config:
     _enabled_editors:
       - visual
     disable_add: true
-collection_groups:
-  - heading: Blog
-    collections:
-      - blog
-  - heading: Pages
-    collections:
-      - pages
-      - listings
-      - our-team
-      - offices
-      - partners
-      - testimonials
-      - thank-you
-      - contact
-      - home-valuation
-      - legal
-  - heading: Data
-    collections:
-      - appearance
+
 paths:
   # The default location for newly uploaded files, relative to source
   uploads: assets
