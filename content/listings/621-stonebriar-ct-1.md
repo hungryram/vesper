@@ -21,7 +21,7 @@ year_built = "2014"
 [listing_agent]
 listing_agent = "our-team/matt-deem.md"
 [photos]
-gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1628904396/templates/realestate2/40903982-3JPG_uk9yhd.jpg"]
+gallery = ["/assets/background/bath.jpg"]
 [search_engine_optimization]
 meta_description = ""
 title_tag = ""
