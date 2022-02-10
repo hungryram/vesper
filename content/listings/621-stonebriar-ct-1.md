@@ -21,7 +21,7 @@ year_built = "2014"
 [listing_agent]
 listing_agent = "our-team/matt-deem.md"
 [photos]
-gallery = ["https://res.cloudinary.com/hungryram19/image/upload/v1628904396/templates/realestate2/40903982-3JPG_uk9yhd.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1628904397/templates/realestate2/40903982-5JPG_mzxxfz.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1628904396/templates/realestate2/40903982-4JPG_l9c7jv.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1628904397/templates/realestate2/40903982-2JPG_aap1tt.jpg", "https://res.cloudinary.com/hungryram19/image/upload/v1628904396/templates/realestate2/40903982-1JPG_gfn0an.jpg"]
+gallery = ""
 [search_engine_optimization]
 meta_description = ""
 title_tag = ""
