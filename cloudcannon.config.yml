@@ -302,6 +302,7 @@ _inputs:
 _structures:
   gallery:
     style: 'modal'
+    type: array
     values:
       - label: 'Image'
         value: 
