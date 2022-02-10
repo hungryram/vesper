@@ -1,6 +1,5 @@
 +++
 cities = "Auburn"
-date = ""
 featured = "Featured"
 price = "$1,082,000"
 properties = "Vacation Home"

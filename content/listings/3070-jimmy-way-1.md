@@ -1,6 +1,5 @@
 +++
 cities = "Roseville"
-date = ""
 featured = "Featured"
 price = "$560,500"
 properties = "Townhome"

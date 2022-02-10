@@ -1,6 +1,5 @@
 +++
 cities = "El Dorado Hills"
-date = ""
 featured = "Featured"
 price = "$2,875,000"
 properties = "Multi-Family"

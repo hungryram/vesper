@@ -1,6 +1,5 @@
 +++
 cities = "Sonora"
-date = ""
 featured = ""
 price = "$339,000"
 properties = "Townhome"
