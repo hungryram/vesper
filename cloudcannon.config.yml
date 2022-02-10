@@ -74,8 +74,6 @@ _inputs:
     type: text
   cities:
     label: City
-  states:
-    label: State
   status:
     type: select
     options:
@@ -245,6 +243,7 @@ _inputs:
         - Concrete
         - Laminate
   states:
+    label: State
     type: select
     options:
       values:
