@@ -1,4 +1,8 @@
 collections_config:
+  listings:
+    path: listings
+    output: true
+    url: "/listings/[slug]"
   testimonials:
     _enabled_editors:
       - data
