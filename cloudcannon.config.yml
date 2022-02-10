@@ -3,7 +3,7 @@ collections_config:
     add_options:
       - name: Add Team Member
         icon: person_add
-        href: "cloudcannon:explore/content/listings/.md🆕"
+        href: "cloudcannon:explore/content/our-team/.md"
   testimonials:
     _enabled_editors:
       - data
