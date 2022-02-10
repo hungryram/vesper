@@ -18,7 +18,7 @@ mls_number = ""
 square_footage = ""
 year_built = ""
 [utilities_and_features.exterior]
-additional_exterior_details = ["n/a"]
+additional_exterior_details = [" "]
 exterior_details = []
 exterior_roof = []
 show_exterior_details = false
