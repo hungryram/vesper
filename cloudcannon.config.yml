@@ -40,6 +40,7 @@ _inputs:
     type: image
   agent_photo:
     type: image
+    comment: upload a logo or photo
   url:
     type: text
     comment: URL is generated automatically on page creation. Changing the URL can cause page link to break.
