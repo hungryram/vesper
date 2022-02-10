@@ -64,6 +64,10 @@ _inputs:
     options:
       values:
         - Featured
+  license_number:
+    type: text
+  fax_number:
+    type: text
   cities:
     label: City
   status:
