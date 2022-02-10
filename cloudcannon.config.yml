@@ -110,6 +110,114 @@ _inputs:
         - Workshop
         - Sun Room
         - Basement
+  interior_appliances:
+    type: multiselect
+    options:
+      values:
+        - Dishwasher
+        - Freezer
+        - Microwave
+        - Oven
+        - Trash Compactor
+        - Water Heater
+        - Wine Refrigerator
+        - Ceiling Fan(s)
+        - Dryer
+        - Garbage Disposal
+        - Range
+        - Refrigerator
+        - Washer
+        - Water Softener
+  exterior_details:
+    type: multiselect
+    options:
+      values:
+        - Pool
+        - Spa/Hot Tub
+        - Gated
+        - Tandem
+        - RV Possible
+        - Carport
+        - Solar Panels (Owned)
+        - Solar Panels (Leased)
+        - Tennis Court
+        - Basketball Court
+        - Fireplace
+        - Greenhouse
+        - Guest House
+        - Workshop
+        - Pool House
+        - Barn
+        - Shed
+        - Gazebo
+  exterior_roof:
+    type: multiselect
+    options:
+      values:
+        - None
+        - Tile
+        - Clay
+        - Polyurethane
+        - Composition
+        - Barrel/Truss
+        - Bituthene
+        - Metal
+        - Foam
+        - Slate
+        - Bitumen
+        - Mansard
+        - Shingles
+        - Unreinforced Masonry
+        - Shake
+        - Wood Frame
+        - Elastomeic
+        - Rolled Composition
+        - Rock
+        - Concrete
+        - Fiberglass
+        - Wood Shakes
+        - Tar and Gravel
+        - Flat/Low Pitch
+        - Aluminum Over Tar
+  community_features_choice:
+    type: multiselect
+    options:
+      values:
+        - None
+        - Tile
+        - Clay
+        - Polyurethane
+        - Composition
+        - Barrel/Truss
+        - Bituthene
+        - Metal
+        - Foam
+        - Slate
+        - Bitumen
+        - Mansard
+        - Shingles
+        - Unreinforced Masonry
+        - Shake
+        - Wood Frame
+        - Elastomeic
+        - Rolled Composition
+        - Rock
+        - Concrete
+        - Fiberglass
+        - Wood Shakes
+        - Tar and Gravel
+        - Flat/Low Pitch
+        - Aluminum Over Tar
+  interior_flooring:
+    type: multiselect
+    options:
+      values:
+        - Carpet
+        - Hardwood
+        - Linoleum/Vinyl
+        - Tile
+        - Concrete
+        - Laminate
   states:
     type: select
     options:
