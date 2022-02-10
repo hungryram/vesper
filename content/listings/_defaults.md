@@ -7,6 +7,7 @@ status = ""
 short_title = ""
 price = ""
 properties = ""
+featured = ""
 [photos]
 gallery = []
 [details]
