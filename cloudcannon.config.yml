@@ -1,4 +1,8 @@
 collections_config:
+  our-team:
+    add_options:
+      - name: Add Team Member
+        icon: person_add
   testimonials:
     _enabled_editors:
       - data
@@ -32,10 +36,6 @@ collection_groups:
   - heading: Blog
     collections:
       - blog
-  our-team:
-    add_options:
-      - name: Add Team Member
-        icon: person_add
 paths:
   # The default location for newly uploaded files, relative to source
   uploads: uploads
