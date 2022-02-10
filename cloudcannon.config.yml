@@ -210,6 +210,10 @@ _inputs:
         - Aluminum Over Tar
   additional_exterior_details:
     type: array
+  additional_interior_details:
+    type: array
+  additional_community_details:
+    type: array
   interior_flooring:
     type: multiselect
     options:
