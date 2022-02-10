@@ -3,6 +3,10 @@ collections_config:
     path: listings
     output: true
     url: "/listings/[slug]"
+    _enabled_editors:
+      - data
+      - visual
+      - content
   testimonials:
     _enabled_editors:
       - data
