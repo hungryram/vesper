@@ -142,6 +142,5 @@ _inputs:
         - WI
         - WY
 _structures:
-  photos:
-    gallery:
-      style: 'modal'
+  gallery:
+    style: 'modal'
