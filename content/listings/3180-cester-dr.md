@@ -7,7 +7,7 @@ status = "Active"
 short_title = "Modern Home"
 price = "$450,500"
 properties = "Single Family"
-
+featured = ""
 [photos]
 gallery = [ ]
 

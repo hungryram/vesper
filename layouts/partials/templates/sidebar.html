@@ -50,7 +50,7 @@
                                         {{ if .Params.photos.gallery }}
                                         <img src="{{ index .Params.photos.gallery 0 }}" alt="" uk-cover>
                                         {{ else }}
-                                        <img src="/assets/nohouse.jpg" alt="no house" style="object-fit: cover;" uk-cover>
+                                        <img src="{{ .Site.BaseURL }}assets/no-house-photo.jpg" alt="no house" uk-cover>
                                         {{ end }}
                                         <div class="property-card-overlay uk-position-cover"></div>
                                         <div class="uk-position-absolute property-card-details">

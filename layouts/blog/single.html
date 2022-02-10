@@ -9,7 +9,7 @@
                 {{ if .Params.featured_image }}
                 <img src="{{ .Params.featured_image }}" alt="{{ .Params.image_alt_tag }}" class="mb-6">
                 {{ else }}
-                <img src="/assets/nophoto.jpg" alt="no photo">
+                <img src="{{ .Site.BaseURL }}assets/no-house-photo.jpg" alt="no photo">
                 {{ end }}
                 <div class="content uk-margin-medium-top">
                     {{ .Content }}
