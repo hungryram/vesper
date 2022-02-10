@@ -145,7 +145,5 @@ _structures:
   gallery:
     style: modal
     values:
-      - label: Image
-        icon: image
         value:
           image: /assets/background/bath.jpg
