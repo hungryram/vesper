@@ -1,4 +1,8 @@
 collections_config:
+  listings:
+    _inputs:
+      title:
+        label: Street Address
   our-team:
     add_options:
       - name: Add Team

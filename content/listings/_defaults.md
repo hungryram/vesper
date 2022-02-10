@@ -1,11 +1,12 @@
 +++
 title = ""
+cities = ""
+states = ""
+zip-codes = ""
 status = ""
 short_title = ""
 price = ""
 properties = ""
-states = ""
-zip-codes = ""
 [photos]
 gallery = []
 [details]
