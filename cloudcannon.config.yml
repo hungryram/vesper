@@ -71,6 +71,10 @@ _inputs:
     options:
       structures:
         style: 'modal'
+        values:
+          - label: image
+            value:
+              image: /assets/background/bath.jpg
   properties:
     type: select
     label: Property Type
