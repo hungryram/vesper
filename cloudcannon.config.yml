@@ -65,12 +65,6 @@ _inputs:
         - Coming Soon
         - Auction
         - Rental
-  gallery:
-    type: array
-    comment: Photos should be no more than 2MB
-    options:
-      structures:
-        style: modal
   properties:
     type: select
     label: Property Type
@@ -147,3 +141,6 @@ _inputs:
         - WV
         - WI
         - WY
+_structures:
+  gallery:
+    style: 'modal'
