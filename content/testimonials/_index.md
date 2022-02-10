@@ -1,10 +1,6 @@
 +++
 title = "Testimonial"
 body = "View Client reviews here"
-[search_engine_optimization]
-meta_description = "Our clients put their trust in our team"
-title_tag = "Testimonial"
-
 [[testimonials]]
 date = "Sep 20, 2020"
 name = "Roger Benn"
@@ -39,5 +35,8 @@ name = "Andrea Ellery"
 source = "https://www.hungryram.com/"
 source_label = "Hungry Ram"
 testimonial = "I would recommend Ram. The site was built super fast and he was updating my site even after launching to improve it. Thank you so much!"
+[search_engine_optimization]
+meta_description = "Our clients put their trust in our team"
+title_tag = "Testimonial"
 +++
 

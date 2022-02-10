@@ -4,6 +4,9 @@ collections_config:
       - name: Add Team
         icon: person_add
         href: "cloudcannon:explore/content/our-team/.md🆕"
+  home-valuation:
+    _enabled_editors:
+      - visual
   testimonials:
     _enabled_editors:
       - data
@@ -49,6 +52,8 @@ _inputs:
     type: text
   youtube_link:
     type: text
+  testimonials:
+    type: textarea
   mls_number:
     type: text
     comment: URL is generated automatically on page creation. Changing the URL can cause page link to break.
