@@ -21,7 +21,7 @@ year_built = "2014"
 [listing_agent]
 listing_agent = "our-team/matt-deem.md"
 [photos]
-gallery = ["/assets/background/bath.jpg"]
+gallery = [""]
 [search_engine_optimization]
 meta_description = ""
 title_tag = ""
