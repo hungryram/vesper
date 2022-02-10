@@ -143,9 +143,9 @@ _inputs:
         - WY
 _structures:
   gallery:
-    style: 'modal'
+    style: modal
     values:
-      - label: Listing Gallery
+      - label: Image
         icon: image
         value:
-          image: /uploads/assets/background/bath.jpg
+          image: /assets/background/bath.jpg
