@@ -144,4 +144,4 @@ _inputs:
 _structures:
   photos:
     gallery:
-    style: modal
+      style: 'modal'
