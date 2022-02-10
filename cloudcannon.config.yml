@@ -144,6 +144,7 @@ _inputs:
 _structures:
   gallery:
     style: modal
+    comment: Images should not exceed 2MB
     values:
         value:
           image: /assets/background/bath.jpg
