@@ -53,8 +53,8 @@
                         {{ if .Params.photos.gallery }}
                         {{ range .Params.photos.gallery }}
                         <li>
-                            <a href="{{ . }}">
-                                <img src="{{ . }}" alt="" uk-cover>
+                            <a href="{{ .image }}">
+                                <img src="{{ .image }}" alt="" uk-cover>
                             </a>
                         </li>
                         {{ end }}
