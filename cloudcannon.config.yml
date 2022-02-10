@@ -48,8 +48,6 @@ paths:
   # The default location for newly uploaded files, relative to source
   uploads: uploads
 _inputs:
-  states:
-    label: State
   photo_or_logo:
     type: image
   agent_photo:
@@ -76,6 +74,8 @@ _inputs:
     type: text
   cities:
     label: City
+  states:
+    label: State
   status:
     type: select
     options:
