@@ -208,6 +208,8 @@ _inputs:
         - Tar and Gravel
         - Flat/Low Pitch
         - Aluminum Over Tar
+  additional_exterior_details:
+    type: array
   interior_flooring:
     type: multiselect
     options:
