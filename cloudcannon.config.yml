@@ -65,11 +65,12 @@ _inputs:
         - Coming Soon
         - Auction
         - Rental
-  gallery:
-    type: array
-    options:
-      structures:
-        style: modal
+  photos:
+    gallery:
+      type: array
+      options:
+        structures:
+          style: modal
   properties:
     type: select
     label: Property Type
