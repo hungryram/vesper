@@ -49,7 +49,7 @@ paths:
   uploads: uploads
 _inputs:
   price:
-    icon: person_add
+    comment: Include the dollar sign.
   photo_or_logo:
     type: image
   agent_photo:
@@ -305,8 +305,6 @@ _structures:
     values:
       - label: 'Image'
         value: 
-          name:
-          description:
           image:
   file_attachments:
     values:
