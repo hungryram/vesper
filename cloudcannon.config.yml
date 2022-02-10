@@ -147,4 +147,12 @@ _structures:
     values:
       - label: 'Image'
         value: 
-          image: /assets/background/bath.jpg
+          name:
+          description:
+          image:
+  file_attachments:
+    values:
+      - label: Attachment
+        value:
+          image:
+          
