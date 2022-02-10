@@ -2,7 +2,7 @@ collections_config:
   listings:
     path: content/listings
     output: true
-    url: "/listings/[slug]"
+    url: "content/listings/[slug]"
     _enabled_editors:
       - data
       - visual
