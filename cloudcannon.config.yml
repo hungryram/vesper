@@ -34,13 +34,17 @@ collection_groups:
       - blog
 paths:
   # The default location for newly uploaded files, relative to source
-  uploads: assets
+  uploads: uploads
 _inputs:
   photo_or_logo:
     type: image
   agent_photo:
     type: image
   url:
+    type: text
+  youtube_link:
+    type: text
+  mls_number:
     type: text
     comment: URL is generated automatically on page creation. Changing the URL can cause page link to break.
   date:
@@ -87,6 +91,25 @@ _inputs:
         - Single Family
         - Time Share
         - Vacation Home
+  interior_rooms:
+    type: multiselect
+    options:
+      values:
+        - Family Room
+        - Laundry Room
+        - Master Bath
+        - Office
+        - Recreation Room
+        - Sauna
+        - Steam Room
+        - Walk-in Closet
+        - Dining Room
+        - Kitchen
+        - Mud Room
+        - Pantry
+        - Workshop
+        - Sun Room
+        - Basement
   states:
     type: select
     options:
