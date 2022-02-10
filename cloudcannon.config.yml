@@ -145,12 +145,6 @@ _structures:
   gallery:
     style: 'modal'
     values:
-      - label: 'First'
+      - label: 'Image'
         value: 
-          name:
-          description:
-          image:
-      - label: 'Second'
-        value: 
-          heading:
-          subtext:
+          image: /assets/background/bath.jpg
