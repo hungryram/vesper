@@ -70,7 +70,7 @@ _inputs:
     comment: Photos should be no more than 2MB
     options:
       structures:
-        style: modal
+        style: 'modal'
         values:
           - label: Image
             icon: image
