@@ -9,8 +9,8 @@ price = "$450,500"
 properties = "Single Family"
 featured = ""
 
-[[photos.gallery]]
-image = "/uploads/images/40902643jpg.jpg"
+[photos]
+gallery = ["/uploads/images/40902643jpg.jpg"]
 
 [details]
 bathrooms = ""
