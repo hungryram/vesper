@@ -144,8 +144,8 @@ _inputs:
 _structures:
   gallery:
     style: 'modal'
-      values:
-        - label: Listing Gallery
-          icon: image
-          value:
-            image: /uploads/assets/background/bath.jpg
+    values:
+      - label: Listing Gallery
+        icon: image
+        value:
+          image: /uploads/assets/background/bath.jpg
