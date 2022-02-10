@@ -10,10 +10,10 @@ properties = "Single Family"
 featured = ""
 
 [[photos.gallery]]
-image = "/uploads/images/40904495-22jpg.jpg"
+image = "/uploads/images/40904495-37jpg.jpg"
 
 [[photos.gallery]]
-image = "/uploads/images/40904495-38jpg.jpg"
+image = "/uploads/images/40904495-27jpg.jpg"
 
 [details]
 bathrooms = ""
