@@ -46,7 +46,7 @@ collection_groups:
       - blog
 paths:
   # The default location for newly uploaded files, relative to source
-  uploads: uploads
+  uploads: uploads/images
 _inputs:
   price:
     comment: Include the dollar sign.
