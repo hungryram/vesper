@@ -86,7 +86,7 @@
                                 <div class="uk-card-media-top uk-cover-container">
                                     <canvas height="350"></canvas>
                                     {{ if .Params.details.agent_photo }}
-                                    <img src="{{ .Params.details.agent_photo }}" alt="{{ .Title }}" uk-cover>
+                                    <img src="{{ if .Site.Data.developer.enable_absolute_path }}{{ .Site.BaseURL }}{{ .Params.details.agent_photo }}{{ else }}{{ .Params.details.agent_photo }}{{ end }}" alt="{{ .Title }}" uk-cover>
                                     {{ else }}
                                     <img src="/assets/user.jpg" alt="" uk-cover>
                                     {{ end }}
@@ -135,7 +135,7 @@
             <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@m uk-margin" uk-grid>
               <div class="uk-card-media-left uk-cover-container">
                 {{ if .Params.featured_image }}
-                <img src="{{ .Params.featured_image }}" alt="" style="width:100%;height:100%;object-fit:cover">
+                <img src="{{ if .Site.Data.developer.enable_absolute_path }}{{ .Site.BaseURL }}{{ .Params.featured_image }}{{ else }}{{ .Params.featured_image }}{{ end }}" alt="" style="width:100%;height:100%;object-fit:cover">
                 {{ else }}
                 <img src="{{ .Site.BaseURL }}assets/no-house-photo.jpg" alt="no photo" style="width:100%;height:100%;object-fit:cover">
                 {{ end }}
