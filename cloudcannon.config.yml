@@ -147,17 +147,3 @@ _structures:
     values:
       - label: Image
         image: /assets/background/bath.jpg
-        icon: image
-        tags:
-          - Media
-          - Asset
-        value:
-        image: /assets/background/desk.jpg
-          caption:
-      - label: External link
-        icon: link
-        tags:
-          - Media
-        value:
-          url:
-          title:
