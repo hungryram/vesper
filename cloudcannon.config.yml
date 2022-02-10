@@ -45,9 +45,6 @@ _inputs:
     comment: URL is generated automatically on page creation. Changing the URL can cause page link to break.
   date:
     type: date
-  gallery:
-    photos:
-      type: image
   featured:
     type: select
     options:
@@ -144,3 +141,6 @@ _inputs:
         - WV
         - WI
         - WY
+_structures:
+  gallery:
+    style: modal
