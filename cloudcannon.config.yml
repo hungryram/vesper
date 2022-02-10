@@ -1,5 +1,6 @@
 collections_config:
   listings:
+    path: content/listings
     output: true
     url: "/listings/[slug]"
     _enabled_editors:
