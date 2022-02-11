@@ -334,6 +334,4 @@ _structures:
       - label: "Featured Boxes"
         value:
           heading:
-          featured:
-            - label: Featured Blocks
-              type: array
+          body:
