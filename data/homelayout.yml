@@ -34,7 +34,10 @@ slideshow:
 home_sections:
   - template: text-and-image
     heading: Welcome to my Real Estate Website
-    body: this is the body of the website for text and image
+    body: |-
+      This is the *markdown* file for the text and **image** file
+
+      Check back again [here](/about/)
     button: Learn more
     button_link: /about/
     image: /uploads/images/40904495-17jpg.jpg
