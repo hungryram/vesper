@@ -1,5 +1,5 @@
 editor:
-  default_path: content/about.md
+  default_path: about.md
 collections_config:
   listings:
     _inputs:
