@@ -320,6 +320,7 @@ _structures:
     values:
       - label: "Text and Image"
         value:
+        template: text-and-image
           heading:
           body:
           button:
