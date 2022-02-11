@@ -43,6 +43,8 @@ collections_config:
     disable_add: true
   offices:
     icon: apartment
+  legal:
+    icon: policy
 collection_groups:
   - heading: Profile and Settings
     collections:
