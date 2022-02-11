@@ -12,6 +12,9 @@ collections_config:
       - name: Add Team
         icon: person_add
         href: "cloudcannon:explore/content/our-team/.md🆕"
+    _inputs:
+      weight:
+        comments: Order team members. Weight of 1 will take first position
   home-valuation:
     _enabled_editors:
       - visual
@@ -398,6 +401,7 @@ _structures:
           template: featured-boxes
           heading:
           body:
+        - label:
           values:
             heading:
             image:
