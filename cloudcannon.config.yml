@@ -15,6 +15,7 @@ collections_config:
   home-valuation:
     _enabled_editors:
       - visual
+    disable_add: true
   testimonials:
     _enabled_editors:
       - data
