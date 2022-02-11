@@ -401,8 +401,8 @@ _structures:
           template: featured-boxes
           heading:
           body:
-        - label:
-          values:
-            heading:
-            image:
-            link:
+          - label:
+            values:
+              heading:
+              image:
+              link:
