@@ -1,5 +1,3 @@
-editor:
-  default_path: /content/about.md
 collections_config:
   listings:
     _inputs:
@@ -34,6 +32,9 @@ collections_config:
     _enabled_editors:
       - visual
     disable_add: true
+  text-and-image:
+    body:
+      type: textarea
 collection_groups:
   - heading: Profile and Settings
     collections:
