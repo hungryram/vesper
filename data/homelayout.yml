@@ -75,6 +75,13 @@ home_sections:
   - template: home-blog
     heading: The blog
     body: Keep up with the latest blog posts
+  - heading: testing heading
+    body: the body test
+    button:
+    button_link:
+    image: /uploads/images/40904495jpg.jpg
+    image_alt_tag:
+    image_width:
 slideshow_settings:
   slide_animation: fade
   enable_autoplay: true
