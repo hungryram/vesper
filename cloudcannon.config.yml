@@ -32,9 +32,8 @@ collections_config:
     _enabled_editors:
       - visual
     disable_add: true
-  text-and-image:
-    body:
-      type: textarea
+  body:
+    type: markdown
 collection_groups:
   - heading: Profile and Settings
     collections:
