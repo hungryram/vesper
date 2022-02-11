@@ -1,5 +1,5 @@
 editor:
-  default_path: content/about/
+  default_path: /about/
 collections_config:
   listings:
     _inputs:
