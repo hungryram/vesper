@@ -305,6 +305,7 @@ _structures:
     type: array
     values:
         value: 
+          image:
   file_attachments:
     values:
       - label: Attachment
