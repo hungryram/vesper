@@ -1,3 +1,15 @@
+slideshow_settings:
+  slide_animation: fade
+  enable_autoplay: true
+  enable_ken_burns_effect: false
+  enable_black_text: false
+video_background:
+  video_link:
+  heading: Highly Customizable Real Estate Theme
+  body: Optionally integrate with IDX or use built in tools
+  button_label: Search Homes
+  button_link: /listings
+  enable_black_text: false
 slideshow:
   - heading: THEME UNDER CONSTRUCTION
     subtitle:
@@ -86,15 +98,3 @@ home_sections:
   - template: active-listings
     heading: My Active Listings
     body: the body of active listings
-slideshow_settings:
-  slide_animation: fade
-  enable_autoplay: true
-  enable_ken_burns_effect: false
-  enable_black_text: false
-video_background:
-  video_link:
-  heading: Highly Customizable Real Estate Theme
-  body: Optionally integrate with IDX or use built in tools
-  button_label: Search Homes
-  button_link: /listings
-  enable_black_text: false

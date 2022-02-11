@@ -81,6 +81,15 @@ _inputs:
     type: text
   cities:
     label: City
+  slide_animation:
+    type: select
+    options:
+      values:
+        - slide
+        - fade
+        - scale
+        - pull
+        - push
   status:
     type: select
     options:

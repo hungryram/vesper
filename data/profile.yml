@@ -12,9 +12,9 @@ contact_information:
   phone: 
   name: John Doe
   cell: 232-453-3467
-  address: 419 Street Address
   email: john@realestatecompany.com
   license: 'BRE #5411555'
+  address: 419 Street Address
   city: Yorba Linda
   state: California
   zip_code: "92882"
@@ -23,5 +23,3 @@ search_engine_optimization:
   meta_description: The only real estate theme you need
   twitter_card:
     twitter_username: ''
-  facebook:
-    app_id: ''
