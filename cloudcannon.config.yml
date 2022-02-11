@@ -336,6 +336,6 @@ _structures:
           heading:
           featured:
             - label: Featured Blocks
-              heading:
-              image:
-              link:
+            - heading:
+            - image:
+            - link:
