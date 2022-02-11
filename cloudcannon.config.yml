@@ -331,11 +331,14 @@ _structures:
         value:
           heading:
           body:
+      - label: Team Carousal
+        value:
+          heading:
+          body:
       - label: "Featured Boxes"
         value:
           heading:
           body:
-          label: Featured Blocks
           values:
             heading:
             image:
