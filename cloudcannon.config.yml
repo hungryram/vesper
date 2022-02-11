@@ -1,8 +1,4 @@
 collections_config:
-  blog:
-    add_options:
-      - name: Add Post
-        href: "cloudcannon:explore/content/blog/.md🆕/_defaults/_defaults.md"
   listings:
     _inputs:
       title:
@@ -15,7 +11,7 @@ collections_config:
     add_options:
       - name: Add Team
         icon: person_add
-        href: "cloudcannon:explore/content/our-team/.md🆕/_schemas/team.md"
+        href: "cloudcannon:explore/content/our-team/.md🆕"
   home-valuation:
     _enabled_editors:
       - visual

@@ -1,6 +1,6 @@
 +++
 author = ""
-categories = ["Buying", "Moving"]
+categories = ["Real Estate"]
 date = ""
 featured_image = ""
 image_alt_tag = ""
