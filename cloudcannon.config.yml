@@ -345,8 +345,8 @@ _structures:
   additional_links:
     type: array
     values:
-      value:
-        link:
+        value:
+          link:
   gallery:
     style: 'modal'
     type: array
