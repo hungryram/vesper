@@ -83,6 +83,9 @@ home_sections:
     image: /uploads/images/40904495jpg.jpg
     image_alt_tag:
     image_width:
+  - template: active-listings
+    heading: My Active Listings
+    body: the body of active listings
 slideshow_settings:
   slide_animation: fade
   enable_autoplay: true
