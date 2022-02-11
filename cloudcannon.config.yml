@@ -346,6 +346,10 @@ _structures:
           heading:
           body:
           background_image:
+          - label: form
+            value:
+              heading:
+              body:
       - label: "Active Listings"
         value:
           template: active-listings
