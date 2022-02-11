@@ -62,7 +62,7 @@
             <div class="uk-width-1-1 uk-text-center uk-white">                
                 <ul class="uk-list">
                     {{ range $footer.important_documents }}
-                    <li><a href="{{ .document }}" class="uk-text-bold">{{ .name_of_document }}</a></li>
+                    <li><a href="{{ .document }}" target="_blank" class="uk-text-bold">{{ .name }}</a></li>
                     {{ end }}
 
                     <li><small class="{{ if $footer.enable_black_text }}uk-dark{{ else }}uk-white{{ end }}">{{ $footer.disclaimer }}</small></li>
@@ -115,6 +115,11 @@
         document.querySelectorAll(".btn-primary").forEach(function(bg) {
         bg.style.backgroundColor = '{{ .Site.Data.appearance.colors.button_background_color }}';
         });
-</script>
+
+        // QUICKSEARCH BUTTON BACKGROUND
+        document.querySelectorAll(".md-content a").forEach(function(bg) {
+            bg.style.color = '{{ .Site.Data.appearance.colors.links }}';
+            });
+    </script>
 </body>
 </html>

@@ -171,7 +171,9 @@
               <div class="uk-card{{ if not .image }} uk-flex uk-flex-center{{ end }}">
                 <div class="{{ if not .image }}uk-width-2xlarge{{ end }}">
                   <h2 class="uk-h3">{{ .heading }}</h2>
-                  <p>{{ .body | markdownify }}</p>
+                  <div class="md-content">
+                    <p>{{ .body | markdownify }}</p>
+                  </div>
                   {{ if and .button_link .button }}
                   <a href="{{ .button_link }}" class="btn-primary uk-button uk-button-primary" {{ if $buttonColor.button_background_color }}style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}>{{ .button }}</a>
                   {{ end }}
@@ -190,7 +192,9 @@
       <h2 class="uk-text-center uk-h3">{{ .heading }}</h2>
       {{ end }}
       {{ if .body }}
-      <p class="uk-text-center">{{ .body | markdownify }}</p>
+      <div class="md-content">
+        <p class="uk-text-center">{{ .body | markdownify }}</p>
+      </div>
       {{ end }}
       <div class="uk-grid-column-small uk-child-width-1-3@s uk-text-center" uk-grid uk-height-match="target: .uk-card">
         {{ range .blocks }}
@@ -225,7 +229,7 @@
                     <h2 class="uk-white">{{ .heading }}</h2>
                     {{ end }}
                     {{ if .body }}
-                    <div class="summary-card mb-4">
+                    <div class="md-content">
                       <p>{{ .body | markdownify }}</p>
                     </div>
                     {{ end }}
@@ -237,7 +241,9 @@
                   <h2 class="uk-h3">{{ .form.heading }}</h2>
                   {{ end }}
                   {{ if .form.body }}
-                  <p>{{ .form.body }}</p>
+                  <div class="md-content">
+                    <p>{{ .form.body }}</p>
+                  </div>
                   {{ end }}
                   <form name="Website Contact Form" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="uk-grid-small" uk-grid action="/thank-you">
                     <input name="bot-field" type="hidden" />
@@ -277,7 +283,9 @@
       <div class="uk-text-center">
         {{ if .heading }}<h2 class="uk-dark uk-h3">{{ .heading }}</h2>{{ end }}
         {{ if .body }}
-        <p>{{ .body | markdownify }}</p>
+        <div class="md-content">
+          <p>{{ .body | markdownify }}</p>
+        </div>
         {{ end }}
       </div>
       <div class="uk-slider-container-offset" uk-slider>
@@ -310,7 +318,9 @@
       <div class="uk-text-center">
         {{ if .heading }}<h2 class="uk-dark uk-h3">{{ .heading }}</h2>{{ end }}
         {{ if .body }}
-        <p>{{ .body | markdownify }}</p>
+        <div class="md-content">
+          <p>{{ .body | markdownify }}</p>
+        </div>
         {{ end }}
       </div>
       <div class="uk-slider-container-offset" uk-slider>
@@ -344,7 +354,9 @@
       <div class="uk-text-center">
         {{ if .heading }}<h2 class="uk-dark uk-h3">{{ .heading }}</h2>{{ end }}
         {{ if .body }}
-        <p>{{ .body | markdownify }}</p>
+        <div class="md-content">
+          <p>{{ .body | markdownify }}</p>
+        </div>
         {{ end }}
       </div>
       <div class="uk-slider-container-offset" uk-slider>
@@ -377,7 +389,9 @@
       <div class="uk-text-center">
         {{ if .heading }}<h2 class="uk-dark uk-h3">{{ .heading }}</h2>{{ end }}
         {{ if .body }}
-        <p>{{ .body | markdownify }}</p>
+        <div class="md-content">
+          <p>{{ .body | markdownify }}</p>
+        </div>
         {{ end }}
       </div>
       <div class="uk-slider-container-offset" uk-slider>
