@@ -335,4 +335,5 @@ _structures:
         value:
           featured:
           - label: Featured Block
-            heading:
+              heading:
+              image:
