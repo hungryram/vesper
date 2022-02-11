@@ -39,15 +39,15 @@ collection_groups:
   - heading: Pages
     collections:
       - pages
-        - listings
-        - our-team
-        - offices
-        - partners
-        - testimonials
-        - thank-you
-        - contact
-        - home-valuation
-        - legal
+      - listings
+      - our-team
+      - offices
+      - partners
+      - testimonials
+      - thank-you
+      - contact
+      - home-valuation
+      - legal
   - heading: Blog
     collections:
       - blog
