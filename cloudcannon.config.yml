@@ -400,7 +400,7 @@ _structures:
         value:
           template: featured-boxes
           heading:
-          featured:
+          body:
           - label:
             heading:
             image:
