@@ -336,3 +336,4 @@ _structures:
           heading:
           featured:
             - label: Featured Blocks
+              type: array
