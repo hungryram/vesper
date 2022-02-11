@@ -249,6 +249,8 @@ _inputs:
         - Tile
         - Concrete
         - Laminate
+  template:
+    hidden: true
   states:
     label: State
     type: select
