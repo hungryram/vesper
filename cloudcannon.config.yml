@@ -349,7 +349,32 @@ _structures:
           form:
             heading:
             body:
-      - label: "Active Listings"
+      - label: "Auction Listings Carousel"
+        value:
+          template: auction-listings
+          heading:
+          body:
+      - label: "Featured IDX Listings Carousel"
+        value:
+          template: featured-idx-listings
+          heading:
+          body:
+      - label: "Featured Listings Carousel"
+        value:
+          template: featured-listings
+          heading:
+          body:
+      - label: "Sold Listings Carousel"
+        value:
+          template: sold-listings
+          heading:
+          body:
+      - label: "Rental Listings Carousel"
+        value:
+          template: rental-listings
+          heading:
+          body:
+      - label: "Active Listings Carousel"
         value:
           template: active-listings
           heading:
