@@ -335,3 +335,8 @@ _structures:
         value:
           heading:
           body:
+          values:
+            - label: featured
+              value:
+                heading:
+                image:
