@@ -5,15 +5,16 @@ last_update = "November 12, 2020"
 title_tag = ""
 meta_description = ""
 +++
+
 We are committed to providing an accessible website. If you have difficulty accessing content, or having difficulty navigating throughout our website, please contact us immediately.
 
 We welcome all suggestions and comments about improving efforts to make sure the website is more accessible on this website.
 
-## Web Accessibility Help
+## Web Accessibility He
 
 There are actions you can take to adjust your web browser to make your web experience more accessible.
 
-## I AM BLIND OR CAN'T SEE VERY WELL
+## I AM BLIND OR CAN’T SEE VERY WELL
 
 If you have trouble seeing web pages, the [**US SOCIAL SECURITY ADMINISTRATION OFFERS THESE TIPS**](https://www.ssa.gov/accessibility/) for optimizing your computer and browser to improve your online experience.
 
@@ -36,9 +37,9 @@ Accessibility features
 Volume control
 
 * click the Start button
-* click "Control Panel"
-* click "Hardware and Sound"
-* click "Adjust System Volume"
+* click “Control Panel”
+* click “Hardware and Sound”
+* click “Adjust System Volume”
 * use the volume control to increase or decrease sound to the desired level
 
 Transcripts
