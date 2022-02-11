@@ -1,6 +1,6 @@
 collections_config:
   listings:
-    icon: other_houses
+    icon: villa
     _inputs:
       title:
         label: Street Address
