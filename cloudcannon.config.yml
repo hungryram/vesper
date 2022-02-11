@@ -327,3 +327,7 @@ _structures:
           image:
           image_alt_tag:
           image_width:
+      - label: "Active Listings"
+        value:
+          heading:
+          body:
