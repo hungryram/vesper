@@ -193,7 +193,7 @@
       <p class="uk-text-center">{{ .body | markdownify }}</p>
       {{ end }}
       <div class="uk-grid-column-small uk-child-width-1-3@s uk-text-center" uk-grid uk-height-match="target: .uk-card">
-        {{ range .featured }}
+        {{ range .blocks }}
         <div>
           <a href="{{ .link }}">
             <div class="uk-inline uk-cover-container" style="border-radius:4px;">
@@ -224,9 +224,9 @@
                     {{ if .form.heading }}
                     <h2 class="uk-white">{{ .heading }}</h2>
                     {{ end }}
-                    {{ if .form.body }}
+                    {{ if .body }}
                     <div class="summary-card mb-4">
-                      <p>{{ .form.body | markdownify }}</p>
+                      <p>{{ .body | markdownify }}</p>
                     </div>
                     {{ end }}
                 </div>
