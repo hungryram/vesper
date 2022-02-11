@@ -1,6 +1,6 @@
 collections_config:
   listings:
-    icon: maps_home_work
+    icon: other_houses
     _inputs:
       title:
         label: Street Address
