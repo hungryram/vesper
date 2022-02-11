@@ -401,6 +401,7 @@ _structures:
           template: featured-boxes
           heading:
           body:
+          featured:
           - label:
             heading:
             image:
