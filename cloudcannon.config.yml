@@ -1,4 +1,8 @@
 collections_config:
+  blog:
+    add_options:
+      - name: Add Post
+        href: "cloudcannon:explore/content/blog/.md:new:/defaults/_defaults.md"
   listings:
     _inputs:
       title:
