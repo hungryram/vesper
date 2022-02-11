@@ -335,6 +335,7 @@ _structures:
         value:
           heading:
           body:
-          values:
+          featured:
             heading:
             image:
+            link:
