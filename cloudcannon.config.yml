@@ -335,6 +335,7 @@ _structures:
         value:
           heading:
           body:
+        - label: Featured Blocks  
           values:
             heading:
             image:
