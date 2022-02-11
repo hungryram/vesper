@@ -1,5 +1,5 @@
 editor:
-  default_path: about.md
+  default_path: /partners/_index.md
 collections_config:
   listings:
     _inputs:
