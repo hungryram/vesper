@@ -1,5 +1,5 @@
 slideshow_settings:
-  slide_animation: fade
+  slide_animation: push
   enable_autoplay: true
   enable_ken_burns_effect: false
   enable_black_text: false
