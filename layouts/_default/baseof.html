@@ -3,7 +3,21 @@
 
 <a href="#" id="totop"> </a>
 
-{{ if .Params.photos.gallery }}
+{{ if lt .Params.photos.gallery 4 }}
+<div class="uk-background-cover uk-height-large uk-panel uk-flex uk-flex-center uk-flex-middle page-banner" style="background: url({{ if .Site.Data.developer.enable_absolute_path }}{{ .Site.BaseURL }}{{ .Site.Data.appearance.pages.image }}{{ else }}{{ .Site.Data.appearance.pages.image }}{{ end }})no-repeat center;background-size:cover">
+    <div class="hero-overlay uk-position-cover"></div>
+
+    <div class="uk-position-top full-nav-wrapper">
+        {{ partial "global/navbar" . }}
+    </div>
+        <div class="uk-padding uk-margin-large-top uk-text-center uk-container uk-container-small">
+            <h1 class="uk-text-uppercase uk-white uk-text-center uk-position-relative uk-h2">{{ .Title }}</h1>
+            {{ if .Params.body }}
+            <p class="uk-white uk-position-relative">{{ .Params.body }}</p>
+            {{ end }}
+        </div>
+</div>
+{{ else }}
 <div uk-slider>
 
     <div class="uk-position-relative">
@@ -15,7 +29,7 @@
                 {{ range .Params.photos.gallery }}
                 <li>
                     <div class="uk-cover-container">
-                    <img src="{{ . }}" alt="" uk-cover>
+                    <img src="{{ .image }}" alt="" uk-cover>
                     <div class="listing-detail-overlay uk-position-cover"></div>
                     </div>
                 </li>
@@ -74,20 +88,6 @@
 
     <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
 
-</div>
-{{ else }}
-<div class="uk-background-cover uk-height-large uk-panel uk-flex uk-flex-center uk-flex-middle page-banner" style="background: url({{ .Site.Data.appearance.pages.image }})no-repeat center;background-size:cover">
-    <div class="hero-overlay uk-position-cover"></div>
-
-    <div class="uk-position-top full-nav-wrapper">
-        {{ partial "global/navbar" . }}
-    </div>
-        <div class="uk-padding uk-margin-large-top uk-text-center uk-container uk-container-small">
-            <h1 class="uk-text-uppercase uk-white uk-text-center uk-position-relative uk-h2">{{ .Title }}</h1>
-            {{ if .Params.body }}
-            <p class="uk-white uk-position-relative">{{ .Params.body }}</p>
-            {{ end }}
-        </div>
 </div>
 {{ end }}
 <main>
