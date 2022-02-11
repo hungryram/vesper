@@ -62,7 +62,7 @@ _inputs:
     type: image
   dark_logo:
     type: image
-  link:
+  links:
     type: color
   accent:
     type: color
@@ -111,9 +111,7 @@ _inputs:
       values:
         - slide
         - fade
-        - scale
-        - pull
-        - push
+        - delayed-fade
   status:
     type: select
     options:
