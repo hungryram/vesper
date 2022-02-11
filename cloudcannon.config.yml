@@ -1,6 +1,6 @@
 collections_config:
   listings:
-    icon: mapse_home_work
+    icon: maps_home_work
     _inputs:
       title:
         label: Street Address
