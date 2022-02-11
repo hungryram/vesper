@@ -39,7 +39,7 @@ collection_groups:
   - heading: Pages
     collections:
       - pages
-        listings
+          listings
   - heading: Blog
     collections:
       - blog
