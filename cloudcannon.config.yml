@@ -39,16 +39,16 @@ collection_groups:
   - heading: Pages
     collections:
       - pages
-      - listings
-      - our-team
-      - offices
-      - partners
-      - testimonials
-      - thank-you
-      - contact
-      - home-valuation
-      - legal
-      - appearance
+        - listings
+        - our-team
+        - offices
+        - partners
+        - testimonials
+        - thank-you
+        - contact
+        - home-valuation
+        - legal
+        - appearance
   - heading: Blog
     collections:
       - blog
