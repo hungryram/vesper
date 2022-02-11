@@ -333,8 +333,6 @@ _structures:
           body:
       - label: "Featured Boxes"
         value:
-          heading:
+          featured:
           - label: Featured Block
-            body:
-              heading:
-              image:
+            heading:
