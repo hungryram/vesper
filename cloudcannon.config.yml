@@ -331,11 +331,11 @@ _structures:
         value:
           heading:
           body:
-      - label: "Featured Boxes"
+      - label: "Featured Blocks"
         value:
           heading:
-          body:
-          - label: Featured
-            values:
-              heading:
-              image:
+          featured:
+          - label: Featured Blocks
+            heading:
+            image:
+            link:
