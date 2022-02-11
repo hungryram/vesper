@@ -402,7 +402,7 @@ _structures:
           heading:
           body:
           featured:
-          - header:
+          - label:
             heading:
             image:
             link:
