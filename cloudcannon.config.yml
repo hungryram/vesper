@@ -402,7 +402,6 @@ _structures:
           heading:
           body:
           - label:
-            values:
-              heading:
-              image:
-              link:
+            heading:
+            image:
+            link:
