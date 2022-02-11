@@ -32,8 +32,6 @@ collections_config:
     _enabled_editors:
       - visual
     disable_add: true
-  body:
-    type: markdown
 collection_groups:
   - heading: Profile and Settings
     collections:
@@ -58,6 +56,8 @@ paths:
   # The default location for newly uploaded files, relative to source
   uploads: static/uploads/images
 _inputs:
+  body:
+    type: markdown
   logo:
     type: image
   favicon:
