@@ -57,32 +57,6 @@ home_sections:
       heading: Send the message
       body: Get in touch with our team
   - template: featured-boxes
-    heading: The featured boxes
-    body: view featured props
-    values:
-      heading:
-      image:
-      link:
-  - template: featured-boxes
-    heading:
-    body:
-    blocks:
-      - label:
-        heading: First Block
-        image: /uploads/files/shutterstock_1320713696_gglqnn.jpg
-        link: /about/
-      - label:
-        heading:
-        image:
-        link:
-      - label:
-        heading:
-        image:
-        link:
-  - template: home-agent
-    heading:
-    body:
-  - template: featured-boxes
     heading: The featured blocks
     body: featured body
     blocks:
