@@ -63,3 +63,38 @@ home_sections:
       heading:
       image:
       link:
+  - template: featured-boxes
+    heading:
+    body:
+    blocks:
+      - label:
+        heading: First Block
+        image: /uploads/files/shutterstock_1320713696_gglqnn.jpg
+        link: /about/
+      - label:
+        heading:
+        image:
+        link:
+      - label:
+        heading:
+        image:
+        link:
+  - template: home-agent
+    heading:
+    body:
+  - template: featured-boxes
+    heading: The featured blocks
+    body: featured body
+    blocks:
+      - label:
+        heading: First Block
+        image: /uploads/files/shutterstock_1320713696_gglqnn.jpg
+        link: /about/
+      - label:
+        heading: Second Block
+        image: /uploads/images/first-time-home-buyer-insurance.jpg
+        link:
+      - label:
+        heading: Third Block
+        image: /uploads/images/40904495jpg.jpg
+        link:
