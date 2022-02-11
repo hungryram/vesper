@@ -10,6 +10,7 @@ collections_config:
   our-team:
     output: true
     url: "/content/our-team/[slug]"
+    icon: groups
     add_options:
       - name: Add Team
         icon: person_add
