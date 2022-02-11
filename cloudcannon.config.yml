@@ -56,6 +56,18 @@ paths:
   # The default location for newly uploaded files, relative to source
   uploads: static/uploads/images
 _inputs:
+  logo:
+    type: image
+  favicon:
+    type: image
+  dark_logo:
+    type: image
+  link:
+    type: color
+  accent:
+    type: color
+  video_link:
+    comment: It is recommended to host videos elsewhere and paste the link here.
   price:
     comment: Include the dollar sign.
   photo_or_logo:
@@ -85,6 +97,15 @@ _inputs:
   cities:
     label: City
   slide_animation:
+    type: select
+    options:
+      values:
+        - slide
+        - fade
+        - scale
+        - pull
+        - push
+  filter_animation:
     type: select
     options:
       values:
@@ -330,6 +351,11 @@ _structures:
       - label: Attachment
         value:
           image:
+  important_documents:
+    values:
+      - label: documents
+        value:
+          document:
   home_sections:
     values:
       - label: "Text and Image"
