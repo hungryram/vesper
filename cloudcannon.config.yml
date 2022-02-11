@@ -304,12 +304,6 @@ _inputs:
         - WV
         - WI
         - WY
-  template:
-    label: Sections
-    type: select
-    options:
-      values:
-        - text-and-image
 _structures:
   gallery:
     style: 'modal'
@@ -322,4 +316,14 @@ _structures:
       - label: Attachment
         value:
           image:
-          
+  home_sections:
+    values:
+      - label: "Text and Image"
+        value:
+          heading:
+          body:
+          button:
+          button_link:
+          image:
+          image_alt_tag:
+          image_width:
