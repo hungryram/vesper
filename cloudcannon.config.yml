@@ -304,6 +304,12 @@ _inputs:
         - WV
         - WI
         - WY
+  template:
+    label: Sections
+    type: select
+    options:
+      values:
+        - text-and-image
 _structures:
   gallery:
     style: 'modal'
