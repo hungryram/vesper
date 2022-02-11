@@ -15,7 +15,7 @@ collections_config:
     add_options:
       - name: Add Team
         icon: person_add
-        href: "cloudcannon:explore/content/our-team/.md🆕/template/_defaults.md"
+        href: "cloudcannon:explore/content/our-team/.md🆕/_schemas/team.md"
   home-valuation:
     _enabled_editors:
       - visual
