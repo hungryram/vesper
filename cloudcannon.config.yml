@@ -343,10 +343,11 @@ _inputs:
         - WY
 _structures:
   additional_links:
+    style: 'modal'
     type: array
     values:
-        value:
-          link:
+        value: 
+          image:
   gallery:
     style: 'modal'
     type: array
