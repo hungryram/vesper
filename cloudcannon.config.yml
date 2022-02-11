@@ -356,6 +356,7 @@ _structures:
       - label: documents
         value:
           document:
+          name:
   home_sections:
     values:
       - label: "Text and Image"
