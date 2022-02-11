@@ -56,13 +56,13 @@ _inputs:
     type: image
   url:
     type: text
+    comment: URL is generated automatically on page creation. Changing the URL can cause page link to break.
   youtube_link:
     type: text
   testimonials:
     type: textarea
   mls_number:
     type: text
-    comment: URL is generated automatically on page creation. Changing the URL can cause page link to break.
   date:
     type: date
   featured:
