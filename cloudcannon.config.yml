@@ -9,7 +9,7 @@ collections_config:
         label: Partner Name
   our-team:
     output: true
-    url: "/our-team/[slug]"
+    url: "/content/our-team/[slug]"
     add_options:
       - name: Add Team
         icon: person_add
