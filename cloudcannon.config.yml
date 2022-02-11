@@ -330,16 +330,39 @@ _structures:
           image:
           image_alt_tag:
           image_width:
-      - label: "Active Listings"
+      - label: "Blog Carousel"
         value:
+          template: home-blog
           heading:
           body:
-      - label: "Team Carousal"
+      - label: "Testimonial Carousel"
         value:
+          template: home-testimonial
+          heading:
+          body:
+      - label: "Text and Contact Form"
+        value:
+          template: text-and-contact-form
+          heading:
+          body:
+          background_image:
+          - form:
+            value:
+              heading:
+              body:
+      - label: "Active Listings"
+        value:
+          template: active-listings
+          heading:
+          body:
+      - label: "Team Carousel"
+        value:
+          template: home-agent
           heading:
           body:
       - label: "Featured Boxes"
         value:
+          template: featured-boxes
           heading:
           body:
           values:
