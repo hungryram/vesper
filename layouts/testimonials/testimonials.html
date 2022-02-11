@@ -22,8 +22,8 @@
                             </div>
                         </div>
                     </header>
-                    <div class="uk-comment-body">
-                        <p>{{ .testimonial }}</p>
+                    <div class="uk-comment-body md-content">
+                        <p>{{ .testimonial | markdownify }}</p>
                     </div>
                 </article>
                 {{ end }}
