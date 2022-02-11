@@ -88,7 +88,7 @@ home_sections:
     blocks:
       - label:
         heading: First Block
-        image: /uploads/files/shutterstock_1320713696_gglqnn.jpg
+        image: /uploads/images/business-meet.jpg
         link: /about/
       - label:
         heading: Second Block
