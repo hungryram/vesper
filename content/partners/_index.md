@@ -1,10 +1,18 @@
 +++
-body = ""
-meta_description = ""
+photo_or_logo = ""
 title = "Our Partners"
-title_tag = ""
-[menu.main]
-parent = "Resources"
-weight = 2
-
+url = ""
+[contact]
+email = ""
+phone = ""
+website = ""
+category = ""
+[contact.address]
+address = ""
+city = ""
+state = ""
+zip_code = ""
+[search_engine_optimization]
+title_tag = "Partner Directory"
+meta_description = "View a list of our partner directories"
 +++
