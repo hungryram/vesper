@@ -402,6 +402,7 @@ _structures:
           heading:
           body:
           featured:
+          - header:
             heading:
             image:
             link:
