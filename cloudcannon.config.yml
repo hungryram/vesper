@@ -78,8 +78,9 @@ _inputs:
     type: image
   additional_links:
     type: array
-    values:
-      link:
+    options:
+      values:
+        link:
   agent_photo:
     type: image
   url:
