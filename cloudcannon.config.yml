@@ -334,9 +334,8 @@ _structures:
       - label: "Featured Boxes"
         value:
           heading:
-          Featured:
+          body:
           - label: Featured
             value:
               heading:
               image:
-              link:
