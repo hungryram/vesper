@@ -347,7 +347,7 @@ _structures:
     type: array
     values:
         value: 
-          image:
+          link:
   gallery:
     style: 'modal'
     type: array
