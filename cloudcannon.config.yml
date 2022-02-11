@@ -249,9 +249,6 @@ _inputs:
         - Tile
         - Concrete
         - Laminate
-  featured:
-    type: array
-    label: the featured boxes
   states:
     label: State
     type: select
@@ -339,3 +336,4 @@ _structures:
           heading:
           body:
           featured:
+            - heading:
