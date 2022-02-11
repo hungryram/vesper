@@ -3,6 +3,10 @@ collections_config:
     _inputs:
       title:
         label: Street Address
+  partners:
+    _inputs:
+      title:
+        label: Partner Name
   our-team:
     add_options:
       - name: Add Team
