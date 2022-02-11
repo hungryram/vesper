@@ -1,5 +1,6 @@
 collections_config:
   listings:
+    icon: home
     _inputs:
       title:
         label: Street Address
@@ -7,6 +8,7 @@ collections_config:
     _inputs:
       title:
         label: Partner Name
+    icon: people
   our-team:
     output: true
     url: "/content/our-team/[slug]"
