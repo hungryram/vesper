@@ -30,7 +30,7 @@ collections_config:
       - data
       - visual
     disable_add: true
-    icon: reviews
+    icon: rate_review
   thank-you:
     icon: mark_email_read
     _enabled_editors:
