@@ -45,6 +45,9 @@ collections_config:
     icon: apartment
   legal:
     icon: policy
+    _enabled_editors:
+      - visual
+      - content
 collection_groups:
   - heading: Profile and Settings
     collections:
