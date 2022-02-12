@@ -86,9 +86,9 @@
                                 <div class="uk-card-media-top uk-cover-container">
                                     <canvas height="350"></canvas>
                                     {{ if .Params.details.agent_photo }}
-                                    <img src="{{ if .Site.Data.developer.enable_absolute_path }}{{ .Site.BaseURL }}{{ .Params.details.agent_photo }}{{ else }}{{ .Params.details.agent_photo }}{{ end }}" alt="{{ .Title }}" uk-cover>
+                                    <img src="{{ if .Site.Data.developer.enable_absolute_path }}{{ .Site.BaseURL }}{{ .Params.details.agent_photo }}{{ else }}{{ .Params.details.agent_photo }}{{ end }}" alt="{{ .Title }}" uk-cover />
                                     {{ else }}
-                                    <img src="/assets/user.jpg" alt="" uk-cover>
+                                    <img src="/assets/user.jpg" alt="" uk-cover />
                                     {{ end }}
                                 </div>
                                 <div class="uk-card-body uk-card-default uk-text-center">
@@ -135,9 +135,9 @@
             <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@m uk-margin" uk-grid>
               <div class="uk-card-media-left uk-cover-container">
                 {{ if .Params.featured_image }}
-                <img src="{{ if .Site.Data.developer.enable_absolute_path }}{{ .Site.BaseURL }}{{ .Params.featured_image }}{{ else }}{{ .Params.featured_image }}{{ end }}" alt="" style="width:100%;height:100%;object-fit:cover">
+                <img src="{{ if .Site.Data.developer.enable_absolute_path }}{{ .Site.BaseURL }}{{ .Params.featured_image }}{{ else }}{{ .Params.featured_image }}{{ end }}" alt="" style="width:100%;height:100%;object-fit:cover" />
                 {{ else }}
-                <img src="{{ .Site.BaseURL }}assets/no-house-photo.jpg" alt="no photo" style="width:100%;height:100%;object-fit:cover">
+                <img src="{{ .Site.BaseURL }}assets/no-house-photo.jpg" alt="no photo" style="width:100%;height:100%;object-fit:cover" />
                 {{ end }}
               </div>
               <div>
@@ -163,14 +163,16 @@
         {{ if .image }}
         <div class="uk-width-1-2@s">
           <div class="uk-card uk-text-center">
-              <img src="{{ .image }}" alt="{{ .image_alt_tag }}" width="{{ .image_width }}">
+              <img src="{{ .image }}" alt="{{ .image_alt_tag }}" width="{{ .image_width }}" />
           </div>
         </div>
         {{ end }}
           <div class="uk-width-expand@s">
               <div class="uk-card{{ if not .image }} uk-flex uk-flex-center{{ end }}">
                 <div class="{{ if not .image }}uk-width-2xlarge{{ end }}">
-                  <h2 class="uk-h3 editable">{{ .heading }}</h2>
+                  <h2 class="uk-h3 editable">
+                  	Welcome to my Real Estate New Site!
+                  </h2>
                   <div class="md-content">
                     <p>{{ .body | markdownify }}</p>
                   </div>
@@ -201,7 +203,7 @@
         <div>
           <a href="{{ .link }}">
             <div class="uk-inline uk-cover-container" style="border-radius:4px;">
-              <img src="{{ .image }}" alt="" uk-cover>
+              <img src="{{ .image }}" alt="" uk-cover />
               <canvas height="400" width="800"></canvas>
               <div class="feature-box-overlay uk-position-cover"></div>
               <div class="uk-overlay uk-position-center uk-light">
@@ -247,17 +249,17 @@
                   {{ end }}
                   <form name="Website Contact Form" method="POST" netlify-honeypot="bot-field" data-netlify="true" class="uk-grid-small" uk-grid action="/thank-you">
                     <input name="bot-field" type="hidden" />
-                    <input type="hidden" name="Subject" value="Website Contact Form">
+                    <input type="hidden" name="Subject" value="Website Contact Form" />
                     <input name="Source" type="hidden" value="{{ .Permalink }}" />
                 
                     <div class="uk-width-1-2@s">
-                        <input class="uk-input" type="text" placeholder="Name" name="Name">
+                        <input class="uk-input" type="text" placeholder="Name" name="Name" />
                     </div>
                     <div class="uk-width-1-2@s">
-                        <input class="uk-input" type="text" placeholder="Phone" name="Phone">
+                        <input class="uk-input" type="text" placeholder="Phone" name="Phone" />
                     </div>
                     <div class="uk-width-1-1">
-                        <input class="uk-input" type="text" placeholder="Email" name="Email">
+                        <input class="uk-input" type="text" placeholder="Email" name="Email" />
                     </div>
                     <div class="uk-width-1-1">
                         <textarea class="uk-textarea" rows="5" placeholder="Your Message" name="Message"></textarea>
