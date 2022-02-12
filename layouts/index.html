@@ -85,8 +85,8 @@
                             <div class="uk-card uk-card-default" style="box-shadow:none">
                                 <div class="uk-card-media-top uk-cover-container">
                                     <canvas height="350"></canvas>
-                                    {{ if .Params.details.agent_photo }}
-                                    <img src="{{ if .Site.Data.developer.enable_absolute_path }}{{ .Site.BaseURL }}{{ .Params.details.agent_photo }}{{ else }}{{ .Params.details.agent_photo }}{{ end }}" alt="{{ .Title }}" uk-cover>
+                                    {{ if .Params.photo }}
+                                    <img src="{{ if .Site.Data.developer.enable_absolute_path }}{{ .Site.BaseURL }}{{ .Params.details.photo }}{{ else }}{{ .Params.photo }}{{ end }}" alt="{{ .Title }}" uk-cover>
                                     {{ else }}
                                     <img src="/assets/user.jpg" alt="" uk-cover>
                                     {{ end }}

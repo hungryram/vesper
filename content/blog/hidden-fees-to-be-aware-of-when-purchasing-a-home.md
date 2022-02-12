@@ -9,8 +9,8 @@ title = "Hidden Fees to be Aware of When Purchasing a Home"
 url = ""
 is_post = true
 [search_engine_optimization]
-meta_description = ""
 title_tag = ""
+meta_description = ""
 no_index = true
 
 +++

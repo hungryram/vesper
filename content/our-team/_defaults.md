@@ -1,11 +1,11 @@
 +++
+photo = ""
 title = ""
 weight = 50
 [contact]
 cell = ""
 email = ""
 [details]
-agent_photo = ""
 title = ""
 license_number = ""
 website = ""

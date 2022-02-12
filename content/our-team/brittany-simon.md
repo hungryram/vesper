@@ -1,4 +1,5 @@
 +++
+photo = "https://res.cloudinary.com/hungryram19/image/upload/v1605401929/templates/realestate2/freestocks-9UVmlIb0wJU-unsplash_safxe6.jpg"
 title = "Brittany Simon"
 url = ""
 weight = 50
@@ -8,7 +9,6 @@ email = "brittany@hungryram.com"
 fax = ""
 phone = ""
 [details]
-agent_photo = "https://res.cloudinary.com/hungryram19/image/upload/v1605401929/templates/realestate2/freestocks-9UVmlIb0wJU-unsplash_safxe6.jpg"
 languages = ["English"]
 license_number = "01971995"
 license_type = "License Number"

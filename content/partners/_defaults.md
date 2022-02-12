@@ -1,5 +1,5 @@
 +++
-photo_or_logo = ""
+photo = ""
 title = ""
 url = ""
 [contact]

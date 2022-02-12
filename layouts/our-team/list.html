@@ -14,7 +14,7 @@
                 <div class="uk-child-width-3-4@m">
                     <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-3@m uk-margin" uk-grid>
                         <div class="uk-card-media-left uk-cover-container">
-                            {{ with .Params.photo_or_logo | default .Params.photos.photo | default .Params.details.agent_photo }}
+                            {{ with .Params.photo }}
                             <img src="{{ . }}" alt="{{ $.Title }}" uk-cover>
                             {{ else }}
                             <img src="/assets/user.jpg" alt="avatar" uk-cover>
