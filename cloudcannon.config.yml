@@ -43,6 +43,9 @@ collections_config:
     disable_add: true
   offices:
     icon: apartment
+    _enabled_editors:
+      - visual
+      - content
   legal:
     icon: policy
     _enabled_editors:
