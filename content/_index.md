@@ -42,5 +42,8 @@ home_sections:
     image:
     image_alt_tag:
     image_width: 400
+  - template: featured-listings
+    heading:
+    body:
 ---
 
