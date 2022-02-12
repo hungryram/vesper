@@ -36,7 +36,7 @@
                 <div class="uk-width-2xlarge uk-{{ if $slideSettings.enable_black_text }}dark{{ else }}light{{ end }}">
                     {{ if .subtitle }}<h4>{{ .subtitle }}</h4>{{ end }}
                     {{ if .heading }}<h1 class="uk-margin-remove">{{ .heading }}</h1>{{ end }}
-                    <div class="md-content">
+                    <div class="md-content editable">
                         {{ if .body }}<p class="uk-margin-remove uk-text-default">{{ .body | markdownify }}</p>{{ end }}
                     </div>
                     {{ if eq $.Site.Data.idx.enable_idx false }}
