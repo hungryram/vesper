@@ -34,5 +34,13 @@ slideshow:
     image: >-
       https://res.cloudinary.com/hungryram19/image/upload/v1628902200/templates/realestate2/bathroom-bg3_onhi8u.jpg
 home_sections:
+  - template: text-and-image
+    heading: Welcome to our Real Estate Website
+    body:
+    button:
+    button_link:
+    image:
+    image_alt_tag:
+    image_width: 400
 ---
 
