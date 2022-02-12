@@ -378,7 +378,8 @@ _structures:
     values:
       - label: Attachment
         value:
-          image:
+          document:
+          name:
   important_documents:
     values:
       - label: documents
