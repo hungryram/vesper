@@ -35,7 +35,7 @@
             <div class="uk-position-center uk-position-small uk-text-center">
                 <div class="uk-width-2xlarge uk-{{ if $slideSettings.enable_black_text }}dark{{ else }}light{{ end }}">
                     {{ if .subtitle }}<h4>{{ .subtitle }}</h4>{{ end }}
-                    {{ if .heading }}<h1 class="uk-margin-remove editable">{{ .heading }}</h1>{{ end }}
+                    {{ if .heading }}<h1 class="uk-margin-remove">{{ .heading }}</h1>{{ end }}
                     <div class="md-content">
                         {{ if .body }}<p class="uk-margin-remove uk-text-default">{{ .body | markdownify }}</p>{{ end }}
                     </div>
