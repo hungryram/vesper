@@ -1,7 +1,10 @@
 +++
+title = "Meet the Team"
 body = "Let our team of professionals help!"
 heading = "Our Team"
-title = "Meet the Team"
+[search_engine_optimization]
+title_tag = ""
+meta_description = ""
 [menu.main]
 name = "Team"
 parent = "Resources"

@@ -1,7 +1,7 @@
 +++
-title_tag = ""
+title = "Our Partners"
 body = ""
 [search_engine_optimization]
-title = "Our Partners"
+title_tag = ""
 meta_description = ""
 +++

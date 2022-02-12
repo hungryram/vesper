@@ -14,9 +14,8 @@ zip_code = 92886
 [photos]
 photo = "https://res.cloudinary.com/hungryram19/image/upload/v1605402667/templates/realestate2/campaign-creators-qCi_MzVODoU-unsplash_ndix6u.jpg"
 [search_engine_optimization]
-meta_description = ""
-no_index = false
 title_tag = ""
+meta_description = ""
 [social_media]
 facebook = "https://facebook.com"
 instagram = "https://instagram.com"
