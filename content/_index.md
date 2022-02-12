@@ -45,14 +45,6 @@ home_sections:
     image: /uploads/images/40904495-17jpg.jpg
     image_alt_tag: my new image
     image_width: '250'
-  - template: text-and-image
-    heading: Welcome new
-    body: this is the body
-    button:
-    button_link:
-    image:
-    image_alt_tag:
-    image_width:
   - template: active-listings
     heading: Active Listings
     body:
