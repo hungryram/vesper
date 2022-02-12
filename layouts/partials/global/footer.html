@@ -4,7 +4,7 @@
 {{ $footerSocial := .Site.Data.profile.social_media }}
 {{ $accent := $.Site.Data.appearance.colors.accent }}
 
-
+<p class="editor-link"><a href="cloudcannon:collections/data/" class="btn"><strong>&#9998;</strong> Edit footer</a></p>
 <footer class="footer" style="{{ if $footer.background_image }}background:url({{ $footer.background_image }}) no-repeat center;background-size:cover;background-blend-mode:overlay;background-color:rgba(0,0,0,0.9){{ else }}background:{{ $footer.footer_background_color }}{{ end }}">
     <div class="uk-section">
         <div class="uk-container uk-container-large">
