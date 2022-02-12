@@ -17,7 +17,7 @@
                     <div class="md-content">
                         <h2 class="uk-h4" style="margin-top:40px;">{{ .Site.Data.homelayout.video_background.body | markdownify }}</h2>
                     </div>
-                    <a href="{{ .Site.Data.homelayout.video_background.button_link }}" class="uk-button uk-button-primary"{{ if $buttonColor.button_background_color }} style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}>{{ .Site.Data.homelayout.video_background.button_label }}</a>
+                    <a href="{{ .Site.Data.homelayout.video_background.button_link }}" class="uk-button uk-button-primary"style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};">{{ .Site.Data.homelayout.video_background.button_label }}</a>
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@
             <div class="uk-position-center uk-position-small uk-text-center">
                 <div class="uk-width-2xlarge uk-{{ if $slideSettings.enable_black_text }}dark{{ else }}light{{ end }}">
                     {{ if .subtitle }}<h4>{{ .subtitle }}</h4>{{ end }}
-                    {{ if .heading }}<h1 class="uk-margin-remove editable">{{ .heading }}</h1>{{ end }}
+                    {{ if .heading }}<h1 class="uk-margin-remove">{{ .heading }}</h1>{{ end }}
                     <div class="md-content">
                         {{ if .body }}<p class="uk-margin-remove uk-text-default">{{ .body | markdownify }}</p>{{ end }}
                     </div>
@@ -44,7 +44,7 @@
                         <form action="{{ "search" | absURL }}">
                             <div uk-form-custom>
                                 <input class="uk-input uk-width-medium" id="search-query" name="s" class="input" placeholder="Search by address, state, zip, city or MLS #" title="Search by address, state, zip, city or MLS #"/>
-                                <button class="uk-button uk-button-primary" type="submit" tabindex="-1" {{ if $buttonColor.button_background_color }}style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}>Search</button>
+                                <button class="uk-button uk-button-primary" type="submit" tabindex="-1" style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};">Search</button>
                             </div>
                         </form>
                     </div>
@@ -52,7 +52,7 @@
                     {{ if $.Site.Data.idx.enable_idx }}
                     <div class="uk-margin-medium-top mobile-quicksearch">
                         {{ if $.Site.Data.idx.incomplete_subdomain }}
-                        <a href="https://{{ $.Site.Data.idx.incomplete_subdomain }}.idxhome.com/homesearch/{{ $ihfID }}" class="uk-button uk-button-primary" {{ if $buttonColor.button_background_color }}style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}>Search Homes</a>
+                        <a href="https://{{ $.Site.Data.idx.incomplete_subdomain }}.idxhome.com/homesearch/{{ $ihfID }}" class="uk-button uk-button-primary" style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};">Search Homes</a>
                         {{ end }}
                     </div>
                     {{ end }}
