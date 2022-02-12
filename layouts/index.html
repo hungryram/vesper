@@ -58,7 +58,7 @@
             <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
         </div>
         <div class="uk-margin uk-text-center">
-          <a href="/testimonials" class="uk-button uk-button-primary" {{ if $buttonColor.button_background_color }}style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}>View more</a>
+          <a href="/testimonials" class="uk-button uk-button-primary" style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};">View more</a>
         </div>
     </div>
 </div>
@@ -110,7 +110,7 @@
             <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
         </div>
         <div class="uk-margin uk-text-center">
-          <a href="/our-team" class="uk-button uk-button-primary" {{ if $buttonColor.button_background_color }}style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}>View more</a>
+          <a href="/our-team" class="uk-button uk-button-primary" style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};">View more</a>
         </div>
     </div>
 </div>
@@ -175,7 +175,7 @@
                     <p>{{ .body | markdownify }}</p>
                   </div>
                   {{ if and .button_link .button }}
-                  <a href="{{ .button_link }}" class="btn-primary uk-button uk-button-primary" {{ if $buttonColor.button_background_color }}style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}>{{ .button }}</a>
+                  <a href="{{ .button_link }}" class="btn-primary uk-button uk-button-primary" style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};">{{ .button }}</a>
                   {{ end }}
                 </div>
               </div>
@@ -263,7 +263,7 @@
                         <textarea class="uk-textarea" rows="5" placeholder="Your Message" name="Message"></textarea>
                     </div>
                     <div class="uk-width-1-1">
-                        <button class="uk-button uk-button-primary" {{ if $buttonColor.button_background_color }}style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};"{{ end }}>Send Email</button>
+                        <button class="uk-button uk-button-primary" style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }};">Send Email</button>
                     </div>
                     <div class="uk-width-1-1">
                         <p>By submitting the form with your information above you are agreeing to our <a style="color:{{ $linkColor }}" href="/legal/terms-and-conditions">Terms and Conditions</a> and <a style="color:{{ $linkColor }}" href="/legal/privacy-policy">Privacy Policy</a></p>
