@@ -388,7 +388,12 @@ _structures:
           name:
   home_sections:
     values:
-      - label: "Text and Image"
+      - label: "Blog Carousel"
+        value:
+          template: home-blog
+          heading:
+          body:
+      - label: "Text and Image Section"
         value:
           template: text-and-image
           heading:
@@ -397,12 +402,7 @@ _structures:
           button_link:
           image:
           image_alt_tag:
-          image_width:
-      - label: "Blog Carousel"
-        value:
-          template: home-blog
-          heading:
-          body:
+          image_width: 400
       - label: "Testimonial Carousel"
         value:
           template: home-testimonial
