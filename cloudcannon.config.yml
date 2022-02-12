@@ -12,6 +12,9 @@ collections_config:
   our-team:
     output: true
     url: "/content/our-team/[slug]"
+    _enabled_editors:
+      - visual
+      - content
     icon: groups
     add_options:
       - name: Add Team
