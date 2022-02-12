@@ -92,7 +92,9 @@
     <div class="uk-card uk-card-default uk-margin-small-top uk-card-body">
         <h2 class="uk-h4 uk-text-bold">About</h2>
         <hr>
-        {{ .Content }}
+        <div class="md-content editable">
+            {{ .Content }}
+        </div>
     </div>
     {{ if or .Params.details.languages .Params.details.specialty }}
     <div class="uk-card uk-card-default uk-margin-small-top uk-card-body">
