@@ -46,6 +46,7 @@ collections_config:
     url: "/content/offices/[slug]"
     icon: apartment
     _enabled_editors:
+      - visual
       - content
   legal:
     icon: policy
