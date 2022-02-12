@@ -4,10 +4,10 @@
 <div class="uk-section">
     <div class="uk-container uk-container-large">
         <div class="uk-grid-small" uk-grid>
-            <div class="uk-width-{{ $size.column_size }} editable">
+            <div class="uk-width-{{ $size.column_size }}">
                 {{ if .Params.testimonials}}
                 {{ range .Params.testimonials }}
-                <article class="uk-comment uk-comment-primary uk-margin">
+                <article class="uk-comment uk-comment-primary uk-margin editable">
                     <header class="uk-comment-header">
                         <div class="uk-grid-medium uk-flex-middle" uk-grid>
                             <div class="uk-width-auto">
