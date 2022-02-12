@@ -429,3 +429,9 @@ footer.footer a:hover {
     background-color: rgb(34, 34, 34);
     transition: .3s ease;
 }
+
+.editor-link a {
+    background: yellow;
+    padding: 10px;
+    text-transform: uppercase;
+}
