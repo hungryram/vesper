@@ -59,7 +59,16 @@
                         <li><a href="{{ .URL | absURL }}" style="{{ if $navColor.enable_white_text }}color: #fff{{ else }}color: #000;{{ end }}">{{ .Name }}</a></li>
                         {{ end }}
                         {{ end }}
+                        {{ if $idx.enable_idx }}
+                        <div class="uk-navbar-item">
+                            {{ if $.Site.Data.idx.incomplete_subdomain }}
+                            <li><a href="https://{{ $.Site.Data.idx.incomplete_subdomain }}.idxhome.com/organizer/login/{{ $ihfID }}" class="uk-button uk-button-primary" {{ if $buttonColor.button_background_color }}style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }}!important;"{{ end }}>My Account</a></li>
+                            {{ else }}
+                            <li><a href="https://{{ $.Site.Data.idx.complete_subdomain }}.com/organizer/login/{{ $ihfID }}" class="uk-button uk-button-primary" {{ if $buttonColor.button_background_color }}style="background:{{ $buttonColor.button_background_color }};color:{{ $buttonColor.button_text_color }}!important;"{{ end }}>My Account</a></li>
+                            {{ end }}
 
+                        </div>
+                        {{ end }}
 
                         </ul>
                 </div>
