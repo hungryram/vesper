@@ -15,6 +15,12 @@ image = "/uploads/images/40904495-17jpg.jpg"
 [[photos.gallery]]
 image = "/uploads/images/40904495jpg.jpg"
 
+[[photos.gallery]]
+image = "/uploads/images/dining-1600x1067.jpeg"
+
+[[photos.gallery]]
+image = "/uploads/images/news-2.jpeg"
+
 [details]
 bathrooms = ""
 bedrooms = ""
@@ -26,9 +32,9 @@ square_footage = ""
 year_built = ""
 
 [utilities_and_features.exterior]
-show_exterior_details = false
-exterior_details = [ ]
-exterior_roof = [ ]
+show_exterior_details = true
+exterior_details = [ "Basketball Court", "Fireplace", "Gazebo" ]
+exterior_roof = [ "Bitumen", "Clay", "Composition", "Elastomeic" ]
 additional_exterior_details = [ " " ]
 
 [utilities_and_features.interior_details]
